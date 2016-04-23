@@ -1,0 +1,7 @@
+F:\DataMap\DataMap.Model\bin\Debug\DataMap.Model.dll
+F:\DataMap\DataMap.Model\bin\Debug\DataMap.Model.pdb
+F:\DataMap\DataMap.Model\bin\Debug\DataMap.Common.dll
+F:\DataMap\DataMap.Model\bin\Debug\DataMap.Common.pdb
+F:\DataMap\DataMap.Model\obj\Debug\DataMap.Model.csprojResolveAssemblyReference.cache
+F:\DataMap\DataMap.Model\obj\Debug\DataMap.Model.dll
+F:\DataMap\DataMap.Model\obj\Debug\DataMap.Model.pdb

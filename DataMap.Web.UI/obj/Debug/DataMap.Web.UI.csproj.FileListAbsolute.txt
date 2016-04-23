@@ -1,0 +1,15 @@
+F:\DataMap\DataMap.Web.UI\bin\Debug\DataMap.Web.UI.dll
+F:\DataMap\DataMap.Web.UI\bin\Debug\DataMap.Web.UI.pdb
+F:\DataMap\DataMap.Web.UI\bin\Debug\DataMap.BLL.dll
+F:\DataMap\DataMap.Web.UI\bin\Debug\DataMap.Common.dll
+F:\DataMap\DataMap.Web.UI\bin\Debug\DataMap.Model.dll
+F:\DataMap\DataMap.Web.UI\bin\Debug\DataMap.DAL.dll
+F:\DataMap\DataMap.Web.UI\bin\Debug\DataMap.DBUtility.dll
+F:\DataMap\DataMap.Web.UI\bin\Debug\DataMap.BLL.pdb
+F:\DataMap\DataMap.Web.UI\bin\Debug\DataMap.Common.pdb
+F:\DataMap\DataMap.Web.UI\bin\Debug\DataMap.Model.pdb
+F:\DataMap\DataMap.Web.UI\bin\Debug\DataMap.DAL.pdb
+F:\DataMap\DataMap.Web.UI\bin\Debug\DataMap.DBUtility.pdb
+F:\DataMap\DataMap.Web.UI\obj\Debug\DataMap.Web.UI.csprojResolveAssemblyReference.cache
+F:\DataMap\DataMap.Web.UI\obj\Debug\DataMap.Web.UI.dll
+F:\DataMap\DataMap.Web.UI\obj\Debug\DataMap.Web.UI.pdb

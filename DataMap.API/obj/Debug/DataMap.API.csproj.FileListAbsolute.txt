@@ -1,0 +1,15 @@
+F:\DataMap\DataMap.API\bin\Debug\DataMap.API.dll
+F:\DataMap\DataMap.API\bin\Debug\DataMap.API.pdb
+F:\DataMap\DataMap.API\bin\Debug\DataMap.BLL.dll
+F:\DataMap\DataMap.API\bin\Debug\DataMap.Common.dll
+F:\DataMap\DataMap.API\bin\Debug\DataMap.Model.dll
+F:\DataMap\DataMap.API\bin\Debug\DataMap.DAL.dll
+F:\DataMap\DataMap.API\bin\Debug\DataMap.DBUtility.dll
+F:\DataMap\DataMap.API\bin\Debug\DataMap.BLL.pdb
+F:\DataMap\DataMap.API\bin\Debug\DataMap.Common.pdb
+F:\DataMap\DataMap.API\bin\Debug\DataMap.Model.pdb
+F:\DataMap\DataMap.API\bin\Debug\DataMap.DAL.pdb
+F:\DataMap\DataMap.API\bin\Debug\DataMap.DBUtility.pdb
+F:\DataMap\DataMap.API\obj\Debug\DataMap.API.csprojResolveAssemblyReference.cache
+F:\DataMap\DataMap.API\obj\Debug\DataMap.API.dll
+F:\DataMap\DataMap.API\obj\Debug\DataMap.API.pdb

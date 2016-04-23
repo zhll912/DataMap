@@ -1,0 +1,11 @@
+F:\DataMap\DataMap.DAL\obj\Debug\DataMap.DAL.csprojResolveAssemblyReference.cache
+F:\DataMap\DataMap.DAL\bin\Debug\DataMap.DAL.dll
+F:\DataMap\DataMap.DAL\bin\Debug\DataMap.DAL.pdb
+F:\DataMap\DataMap.DAL\bin\Debug\DataMap.Common.dll
+F:\DataMap\DataMap.DAL\bin\Debug\DataMap.DBUtility.dll
+F:\DataMap\DataMap.DAL\bin\Debug\DataMap.Model.dll
+F:\DataMap\DataMap.DAL\bin\Debug\DataMap.Common.pdb
+F:\DataMap\DataMap.DAL\bin\Debug\DataMap.DBUtility.pdb
+F:\DataMap\DataMap.DAL\bin\Debug\DataMap.Model.pdb
+F:\DataMap\DataMap.DAL\obj\Debug\DataMap.DAL.dll
+F:\DataMap\DataMap.DAL\obj\Debug\DataMap.DAL.pdb
