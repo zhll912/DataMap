@@ -741,7 +741,7 @@
     <Content Include="templates\main\Public\Web\js\service.js" />
     <Content Include="templates\main\Public\Web\js\webdesign.js" />
     <Content Include="templates\main\Public\Web\js\yuangong.js" />
-    <Content Include="templates\main\service.html" />
+    <Content Include="templates\main\services.html" />
     <Content Include="templates\main\solutions.html" />
     <Content Include="templates\main\webdesign.html" />
     <Content Include="templates\main\_footer.html" />

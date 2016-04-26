@@ -41,18 +41,15 @@
       <!--banner-->
       <div class="banner">
         <ul class="pic" id="pic">
-          <li style="background-image: url(<%templateskin%>/Public/Uploads/banner.jpg)">
-            <a title="品牌官网设计" href="WebDesign/index.html" tppabs="http://www.tisx.net/WebDesign/">
-            </a>
-          </li>
-          <li style="background-image: url(<%templateskin%>/Public/Uploads/banner2.jpg)">
-            <a title="山西戴特数图网络科技有限公司" href="#" tppabs="http://www.tisx.net/Website/">
-            </a>
-          </li>
-          <li style="background-image: url(<%templateskin%>/Public/Uploads/1453974599.jpg)">
-            <a title="成功案例" href="cases/index.html" tppabs="http://www.tisx.net/cases/">
-            </a>
-          </li>
+            <%set DataTable focusNews=get_article_list("news", 0, 8, "status=0 and is_slide=1 and img_url<>''")%>
+            <%foreach(DataRow dr in focusNews.Rows)%>
+            <li style="background-image:url({dr[img_url]})">
+                <a title="{dr[title]}" href="<%linkurl("news_show",{dr[id]})%>
+                    " tppabs="http://www.tisx.net/WebDesign/">
+                </a>
+            </li>
+            <%/foreach%>
+
         </ul>
         <ul class="list" id="list_pic">
           <li class="on">
@@ -63,131 +60,46 @@
           </li>
         </ul>
       </div>
+        <!--/banner-->
     </div>
     <!--main-->
     <div id="section2" init="true" class="section section2">
       <div class="wrap">
         <div class="home_title">
-          <a href="service/index.html" tppabs="http://www.tisx.net/service/" target="_blank">
+          <a href="services.html" tppabs="http://www.tisx.net/service/" target="_blank">
               <img src="<%templateskin%>/Public/Web/images/index201601/t_service.jpg" tppabs="http://www.tisx.net/Public/Web/images/index201601/t_service.jpg"
                    width="262" height="78" alt="服务范围" />
           </a>
         </div>
         <div class="service_text">
-          从PC到移动互联网TI联盟打造一个全方位的互联网营销体系
+          从PC到移动互联网戴特数图为您打造一个全方位的IT运维与管理体系
         </div>
         <div class="serve_column">
           <ul class="fix">
+              <%set DataTable focusservices=get_article_list("services", 0, 4, "status=0 and is_slide=1")%>
+              <%foreach(DataRow dr in focusservices.Rows)%> 
             <li class="c1">
               <dl>
                 <dt class="pic">
-                  <a href="WebDesign/index.html" tppabs="http://www.tisx.net/WebDesign/"
-                  target="_blank">
-                      <img src="<%templateskin%>/Public/Web/images/index201601/service_1.jpg" tppabs="http://www.tisx.net/Public/Web/images/index201601/service_1.jpg"
-                           alt="品牌官网设计" width="270" height="200" />
-                  </a>
+                    <a href="<%linkurl("services_show",{dr[id]})%>" tppabs="http://www.tisx.net/WebDesign/"
+                        target="_blank">
+                        <img src="{dr[img_url]}" tppabs="http://www.tisx.net/{dr[img_url]}"
+                             alt="{dr[title]}" width="270" height="200" />
+                    </a>
                 </dt>
                 <dt class="t">
-                  <a href="WebDesign/index.html" tppabs="http://www.tisx.net/WebDesign/"
-                  target="_blank">
-                    品牌官网设计
-                  </a>
+                    <a href="<%linkurl("services_show",{dr[id]})%>" tppabs="http://www.tisx.net/WebDesign/"
+                        target="_blank">
+                        {dr[title]}
+                    </a>
                 </dt>
                 <dd>
-                  策划、设计、前端、程序开发全方位一条龙服务
-                </dd>
-                <dd>
-                  充分了解企业文化、行业特点，体现企业特色
-                </dd>
-                <dd>
-                  设计师一对一沟通，充分了解你的需求和想法
-                </dd>
-                <dd>
-                  时刻掌握最新技术动向，打造高品质网站
+                    {dr[content]}
                 </dd>
               </dl>
-            </li>
-            <li class="c2">
-              <dl>
-                <dt class="pic">
-                    <img src="<%templateskin%>/Public/Web/images/index201601/service_2.jpg" tppabs="http://www.tisx.net/Public/Web/images/index201601/service_2.jpg"
-                         alt="商城网站开发" width="270" height="200" />
-                  </a>
-                </dt>
-                <dt class="t">
-                  <a href="javascript:if(confirm('http://www.fwshop.net/  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://www.fwshop.net/'"
-                  tppabs="http://www.fwshop.net/" rel="noFollow" target="_blank">
-                    商城网站开发
-                  </a>
-                </dt>
-                <dd>
-                  专业量身定制设计、定制功能、定制后台开发
-                </dd>
-                <dd>
-                  拥有资深开发团队，追求质量同时保证速度
-                </dd>
-                <dd>
-                  追求完美，不断提升系统响应速度和稳定性
-                </dd>
-                <dd>
-                  完善的测试流程，在上线之前解决问题
-                </dd>
-              </dl>
-            </li>
-            <li class="c3">
-              <dl>
-                <dt class="pic">
-                  <a href="mobile/index.html" tppabs="http://www.tisx.net/mobile/">
-                      <img src="<%templateskin%>/Public/Web/images/index201601/service_3.jpg" tppabs="http://www.tisx.net/Public/Web/images/index201601/service_3.jpg"
-                           alt="手机微信网站建设" width="270" height="200" />
-                  </a>
-                </dt>
-                <dt class="t">
-                  <a href="mobile/index.html" tppabs="http://www.tisx.net/mobile/">
-                    手机、微信网站建设
-                  </a>
-                </dt>
-                <dd>
-                  个性设计，独一无二，用设计风格体现企业文化
-                </dd>
-                <dd>
-                  精简代码、追求速度，兼容主流手机浏览器
-                </dd>
-                <dd>
-                  和PC端数据同步，管理方便，全方位网络营销
-                </dd>
-                <dd>
-                  零成本增加微信网站
-                </dd>
-              </dl>
-            </li>
-            <li class="c4">
-              <dl>
-                <dt class="pic">
-                  <a href="solutions/index.html" tppabs="http://www.tisx.net/solutions/">
-                      <img src="<%templateskin%>/Public/Web/images/index201601/service_4.jpg" tppabs="http://www.tisx.net/Public/Web/images/index201601/service_4.jpg"
-                           alt="解决方案" width="270" height="200" />
-                  </a>
-                </dt>
-                <dt class="t">
-                  <a href="solutions/index.html" tppabs="http://www.tisx.net/solutions/">
-                    高端网站定制
-                  </a>
-                </dt>
-                <dd>
-                  只要逻辑可行，我们就能帮你实现
-                </dd>
-                <dd>
-                  完全根据你的想法，创新策划解决方案
-                </dd>
-                <dd>
-                  采用最新网站开发技术,全方位考虑各种因素
-                </dd>
-                <dd>
-                  用最短的时间定制出最好的网站
-                </dd>
-              </dl>
-            </li>
+            </li> 
+            <%/foreach%>
+
           </ul>
           <div class="c">
           </div>
@@ -201,30 +113,32 @@
     <div id="section3" init="false" class="section section3">
       <div class="succeed">
         <div class="succeed_title">
-          <a href="cases/index.html" tppabs="http://www.tisx.net/cases/">
+          <a href="cases.html" tppabs="http://www.tisx.net/cases/">
               <img src="<%templateskin%>/Public/Web/images/index201601/t_cases.jpg" tppabs="http://www.tisx.net/Public/Web/images/index201601/t_cases.jpg"
                    alt="成功案例" width="296" height="74" />
           </a>
         </div>
         <div class="success_text">
-          一个人能走多远，取决于与谁同行，TI团队是一个富有理想和激情的团队，是一个蓬勃向上并富有朝气的团队，
+          一个人能走多远，取决于与谁同行，戴特数图是一个富有理想和激情的团队，是一个蓬勃向上并富有朝气的团队，
           <br />
           也是一个技术专业化、管理人性化、创新性和学习型的优秀团队。
         </div>
       </div>
       <ul class="portfolio-grid fix">
         <!-- Thumbnail -->
+          <%set DataTable focuscases=get_article_list("cases", 0, 8, "status=0 and is_slide=1")%>
+          <%foreach(DataRow dr in focuscases.Rows)%>
         <li class="thumbnail" style="display:block;opacity:1;">
-          <a class="thumbnail_a" href="#" tppabs="#">
-              <img src="<%templateskin%>/Public/Uploads/56976178f3378.jpg" tppabs="http://www.tisx.net/Public/Uploads/56976178f3378.jpg"
-                   class="cases_img" alt="澳邦乳业-澳德华园" />
-            <div class="projectinfo" style="display: none;">
-            </div>
-          </a>
+            <a class="thumbnail_a" href="<%linkurl("cases_show",{dr[id]})%>" tppabs="#">
+                <img src="{dr[img_url]}" tppabs="http://www.tisx.net/{dr[img_url]}"
+                     class="cases_img" alt="{dr[title]}" />
+                <div class="projectinfo" style="display: none;">
+                </div>
+            </a>
           <div class="meta">
             <h4 class="fl">
               <a href="#" tppabs="#">
-                澳邦乳业-澳德华园
+                  {dr[title]}
               </a>
             </h4>
             <div class="fr">
@@ -237,164 +151,10 @@
             </div>
           </div>
         </li>
-        <li class="thumbnail" style="display:block;opacity:1;">
-          <a class="thumbnail_a" href="cases/226.html" tppabs="#">
-              <img src="<%templateskin%>/Public/Uploads/569761948fee5.jpg" tppabs="http://www.tisx.net/Public/Uploads/569761948fee5.jpg"
-                   class="cases_img" alt="深圳机场地产" />
-            <div class="projectinfo" style="display: none;">
-            </div>
-          </a>
-          <div class="meta">
-            <h4 class="fl">
-              <a href="#" tppabs="#">
-                深圳机场地产
-              </a>
-            </h4>
-            <div class="fr">
-              <a href="#" tppabs="#" class="cases_a_pc">
-              </a>
-              <a href="#" tppabs="#" class="cases_a_phone">
-              </a>
-            </div>
-            <div class="c">
-            </div>
-          </div>
-        </li>
-        <li class="thumbnail" style="display:block;opacity:1;">
-          <a class="thumbnail_a" href="#" tppabs="#">
-              <img src="<%templateskin%>/Public/Uploads/569761b2ac690.jpg" tppabs="http://www.tisx.net/Public/Uploads/569761b2ac690.jpg"
-                   class="cases_img" alt="欧杰酒业-商城" />
-            <div class="projectinfo" style="display: none;">
-            </div>
-          </a>
-          <div class="meta">
-            <h4 class="fl">
-              <a href="#" tppabs="#" target="_blank">
-                欧杰酒业-商城
-              </a>
-            </h4>
-            <div class="fr">
-              <a href="cases/53.html" tppabs="#" target="_blank" class="cases_a_pc">
-              </a>
-            </div>
-            <div class="c">
-            </div>
-          </div>
-        </li>
-        <li class="thumbnail" style="display:block;opacity:1;">
-          <a class="thumbnail_a" href="#" tppabs="#" target="_blank">
-              <img src="<%templateskin%>/Public/Uploads/569761a500f52.jpg" tppabs="http://www.tisx.net/Public/Uploads/569761a500f52.jpg"
-                   class="cases_img" alt="美联英语" />
-            <div class="projectinfo" style="display: none;">
-            </div>
-          </a>
-          <div class="meta">
-            <h4 class="fl">
-              <a href="#" tppabs="#">
-                美联英语
-              </a>
-            </h4>
-            <div class="fr">
-              <a href="#" tppabs="#" class="cases_a_pc">
-              </a>
-              <a href="cases/phone133.html" tppabs="#" target="_blank" class="cases_a_phone">
-              </a>
-            </div>
-            <div class="c">
-            </div>
-          </div>
-        </li>
-        <li class="thumbnail" style="display:block;opacity:1;">
-          <a class="thumbnail_a" href="#" tppabs="#">
-              <img src="<%templateskin%>/Public/Uploads/569761bf5dd7f.jpg" tppabs="http://www.tisx.net/Public/Uploads/569761bf5dd7f.jpg"
-                   class="cases_img" alt="乐普医疗" />
-            <div class="projectinfo" style="display: none;">
-            </div>
-          </a>
-          <div class="meta">
-            <h4 class="fl">
-              <a href="cases/184.html" tppabs="#">
-                乐普医疗
-              </a>
-            </h4>
-            <div class="fr">
-              <a href="#" tppabs="#" class="cases_a_pc">
-              </a>
-            </div>
-            <div class="c">
-            </div>
-          </div>
-        </li>
-        <li class="thumbnail" style="display:block;opacity:1;">
-          <a class="thumbnail_a" href="#" tppabs="#">
-              <img src="<%templateskin%>/Public/Uploads/569761d57b071.jpg" tppabs="http://www.tisx.net/Public/Uploads/569761d57b071.jpg"
-                   class="cases_img" alt="我爱海淘" />
-            <div class="projectinfo" style="display: none;">
-            </div>
-          </a>
-          <div class="meta">
-            <h4 class="fl">
-              <a href="cases/223.html" tppabs="#" target="_blank">
-                我爱海淘
-              </a>
-            </h4>
-            <div class="fr">
-              <a href="#" tppabs="#" target="_blank" class="cases_a_pc">
-              </a>
-            </div>
-            <div class="c">
-            </div>
-          </div>
-        </li>
-        <li class="thumbnail" style="display:block;opacity:1;">
-          <a class="thumbnail_a" href="#" tppabs="#" target="_blank">
-              <img src="<%templateskin%>/Public/Uploads/569761e2d440a.jpg" tppabs="http://www.tisx.net/Public/Uploads/569761e2d440a.jpg"
-                   class="cases_img" alt="宝石汇商城" />
-            <div class="projectinfo" style="display: none;">
-            </div>
-          </a>
-          <div class="meta">
-            <h4 class="fl">
-              <a href="cases/164.html" tppabs="#">
-                宝石汇商城
-              </a>
-            </h4>
-            <div class="fr">
-              <a href="#" tppabs="#" class="cases_a_pc">
-              </a>
-              <a href="#" tppabs="#" class="cases_a_phone">
-              </a>
-            </div>
-            <div class="c">
-            </div>
-          </div>
-        </li>
-        <li class="thumbnail" style="display:block;opacity:1;">
-          <a class="thumbnail_a" href="#" tppabs="#">
-              <img src="<%templateskin%>/Public/Uploads/56dffce7929f5.jpg" tppabs="http://www.tisx.net/Public/Uploads/56dffce7929f5.jpg"
-                   class="cases_img" alt="小牛资本" />
-            <div class="projectinfo" style="display: none;">
-            </div>
-          </a>
-          <div class="meta">
-            <h4 class="fl">
-              <a href="#l" tppabs="#">
-                小牛资本
-              </a>
-            </h4>
-            <div class="fr">
-              <a href="#" tppabs="#" class="cases_a_pc">
-              </a>
-              <a href="#" tppabs="#" class="cases_a_phone">
-              </a>
-            </div>
-            <div class="c">
-            </div>
-          </div>
-        </li>
+          <%/foreach%>
       </ul>
       <div class="btn_cases_more">
-        <a href="cases/index.html" tppabs="#/" title="成功案例" class="btn">
+        <a href="cases.html" tppabs="#/" title="成功案例" class="btn">
           查看更多
         </a>
       </div>

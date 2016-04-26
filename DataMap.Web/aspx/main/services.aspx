@@ -9,8 +9,8 @@ override protected void OnInit(EventArgs e)
 {
 
 	/* 
-		This page was created by DataMap Template Engine at 2016/4/23 18:15:52.
-		本页面代码由DataMap模板引擎生成于 2016/4/23 18:15:52. 
+		This page was created by DataMap Template Engine at 2016/4/26 16:38:32.
+		本页面代码由DataMap模板引擎生成于 2016/4/26 16:38:32. 
 	*/
 
 	base.OnInit(e);
