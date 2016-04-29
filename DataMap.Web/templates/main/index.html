@@ -210,126 +210,46 @@
     <div id="section5" init="false" class="section section5">
       <div class="home_news">
         <div class="home_news_title">
-          <a href="news/index.html" tppabs="#" target="_blank">
+          <a href="news.html" tppabs="#" target="_blank">
               <img src="<%templateskin%>/Public/Web/images/index201601/t_news.jpg" tppabs="http://www.datamapsoft.com/Public/Web/images/index201601/t_news.jpg"
                    alt="新闻资讯" width="310" height="71" />
           </a>
         </div>
         <div class="home_news_text">
-          提供网站建设相关资讯、互联网行业资讯、网站设计知识、空间域名邮箱、网站解决方案、常见问题、签约新闻等
+          提供网站建设、软件开发、数据分析处理、电子地图等相关资讯、互联网行业资讯、网站设计知识、空间域名邮箱、网站软件解决方案、常见问题、签约新闻等
         </div>
         <div class="home_news_list">
           <div class="wrap">
             <div class="home_news_list_inner">
+                <%set DataTable topNewsList=get_article_list("news", 0, 6, "status=0")%>
+                <%foreach(DataRow dr in topNewsList.Rows)%>
+                
               <div class="home_news_item">
                 <dl>
                   <dt>
-                    2016-03-26
+                      <%datetostr({dr[add_time]},MM-dd)%>
                   </dt>
                   <dd class="t">
-                    <a href="#" tppabs="#" target="_blank">
-                      【签约】津市（江西常德市）市委宣传部网站建设
-                    </a>
+                      <a href="<%linkurl("news_show",{dr[id]})%>" tppabs="#" target="_blank">
+                          {dr[title]}
+                      </a>
                   </dd>
                   <dd class="spec">
-                    <a href="#" tppabs="#">
-                      津市行政区类别省辖市（地级市代管） 常德市代管，本地和TI联盟合作其志愿者服务平台，网站主要功能有： 首页 网站整个风格、架构进行定位，整站重要内容的突出...
-                    </a>
+                      <a href="<%linkurl("news_show",{dr[id]})%>" tppabs="#">
+                          {dr[zhaiyao]}...
+                      </a>
                   </dd>
                 </dl>
               </div>
-              <div class="home_news_item">
-                <dl>
-                  <dt>
-                    2016-03-25
-                  </dt>
-                  <dd class="t">
-                    <a href="#" tppabs="#">
-                      可定制云商城网站建设解决方案（3）
-                    </a>
-                  </dd>
-                  <dd class="spec">
-                    <a href="#" tppabs="#">
-                      承诺支持时间内，45分钟响应，根据故障分级不同在相应时间内解决问题； 1） 如软件系统无法运行，用户无法使用。我们会在24小时内提供解决方案或替代方法...
-                    </a>
-                  </dd>
-                </dl>
-              </div>
-              <div class="home_news_item">
-                <dl>
-                  <dt>
-                    2016-03-25
-                  </dt>
-                  <dd class="t">
-                    <a href="#" tppabs="#">
-                      TI联盟拥有什么优势
-                    </a>
-                  </dd>
-                  <dd class="spec">
-                    <a href="#" tppabs="#">
-                      互联网时代很多企业都开始关注网站的使用和价值，因为网站可以将自己的商品和内容进行更好的展示宣传效果，开辟全新的运营模式，最重要的是价格还是非常便宜...
-                    </a>
-                  </dd>
-                </dl>
-              </div>
+                
+                <%if({(topNewsList.Rows.IndexOf(dr)+1)}%3==0)%>
               <div class="c">
               </div>
-              <div class="home_news_item">
-                <dl>
-                  <dt>
-                    2016-03-24
-                  </dt>
-                  <dd class="t">
-                    <a href="#" tppabs="#">
-                      旅游网站方案
-                    </a>
-                  </dd>
-                  <dd class="spec">
-                    <a href="#" tppabs="#">
-                      七、导游服务 导游管理 列表显示已有导游，对导游进行添加/编辑/隐藏，分别有基础信息、编号、图片，导游介绍、预订须知，导游排序，导游评分、按市场价、预定价...
-                    </a>
-                  </dd>
-                </dl>
-              </div>
-              <div class="home_news_item">
-                <dl>
-                  <dt>
-                    2016-03-23
-                  </dt>
-                  <dd class="t">
-                    <a href="#" tppabs="#">
-                      响应式网站之解决响应式图片尺寸大小问题
-                    </a>
-                  </dd>
-                  <dd class="spec">
-                    <a href="#" tppabs="#">
-                      前言 随着网站开发技术的发展，浏览器的升级，操作系统的升级，HTML5\CSS3技术的推出，对HTML5的支持变得越来越全面，也让旧浏览器的占有率越来越低，同时不同尺寸...
-                    </a>
-                  </dd>
-                </dl>
-              </div>
-              <div class="home_news_item">
-                <dl>
-                  <dt>
-                    2016-03-22
-                  </dt>
-                  <dd class="t">
-                    <a href="#" tppabs="#">
-                      【签约】中信资本
-                    </a>
-                  </dd>
-                  <dd class="spec">
-                    <a href="#" tppabs="#">
-                      TI联盟和中信股份旗下中信资本合作其官方网站建设，网站主要为公司介绍、新闻资讯、业务介绍为一体的品牌展示网站。 中信资本为中信集团旗下一级子公...
-                    </a>
-                  </dd>
-                </dl>
-              </div>
-              <div class="c">
-              </div>
+                <%/if%>
+                <%/foreach%>
             </div>
             <div class="btn_news_more">
-              <a href="news/index.html" tppabs="http://www.datamapsoft.com/news/" title="新闻资讯"
+              <a href="news.html" tppabs="http://www.datamapsoft.com/news/" title="新闻资讯"
               class="btn">
                 查看更多
               </a>
