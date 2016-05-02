@@ -221,7 +221,7 @@
         <div class="home_news_list">
           <div class="wrap">
             <div class="home_news_list_inner">
-                <%set DataTable topNewsList=get_article_list("news", 0, 6, "status=0")%>
+                <%set DataTable topNewsList=get_article_list("news", 0, 6, "id<>60")%>
                 <%foreach(DataRow dr in topNewsList.Rows)%>
                 
               <div class="home_news_item">
@@ -272,84 +272,33 @@
         </div>
         <div class="home_partner_list wrap">
           <table>
+             
+          <%set DataTable CustomNewsList=get_article_list("news", 60, 8, "status=0")%>
+          <%foreach(DataRow dr in CustomNewsList.Rows)%>
+          <%if({CustomNewsList.Rows.IndexOf(dr)}%4==0)%>
             <tr>
-            </tr>
-            <tr>
+          <%/if%>
               <td>
                 <div class="pic partner_box">
                   <div class="cont1">
-                      <img src="<%templateskin%>/Public/Uploads/569cc06f1c4a1.jpg" tppabs="http://www.datamapsoft.com/Public/Uploads/569cc06f1c4a1.jpg"
-                           width="150" height="100" alt="环球石材" />
-                    </a>
+                      <a href="<%linkurl("news_show",{dr[id]})%>">
+                          <img src="{dr[img_url]}" tppabs="http://www.datamapsoft.com/{dr[img_url]}"
+                               width="150" height="100" alt="{dr[title]}" />
+                      </a>
                   </div>
-                  <div class="cont2">
-                      <img src="<%templateskin%>/Public/Uploads/569ca62ca6eb1.jpg" tppabs="http://www.datamapsoft.com/Public/Uploads/569ca62ca6eb1.jpg"
-                           width="150" height="100" alt="环球石材" />
-                    </a>
-                  </div>
-                </div>
+                    <div class="cont2">
+                        <img src="<%templateskin%>/Public/Uploads/569ca5104a946.jpg" tppabs="http://www.tisx.net/Public/Uploads/569ca5104a946.jpg"
+                             width="150" height="100" alt="TI联盟会展中心" />
+                        </a>
+                    </div> 
+                             </div>
               </td>
-              <td>
-                <div class="pic partner_box">
-                  <div class="cont1">
-                      <img src="<%templateskin%>/Public/Uploads/569cc0801b119.jpg" tppabs="http://www.datamapsoft.com/Public/Uploads/569cc0801b119.jpg"
-                           width="150" height="100" alt="TI联盟会展中心" />
-                    </a>
-                  </div>
-                  <div class="cont2">
-                      <img src="<%templateskin%>/Public/Uploads/569ca5104a946.jpg" tppabs="http://www.datamapsoft.com/Public/Uploads/569ca5104a946.jpg"
-                           width="150" height="100" alt="TI联盟会展中心" />
-                    </a>
-                  </div>
-                </div>
-              </td>
-              <td>
-                <div class="pic partner_box">
-                  <div class="cont1">
-                      <img src="<%templateskin%>/Public/Uploads/569cc08aa258c.jpg" tppabs="http://www.datamapsoft.com/Public/Uploads/569cc08aa258c.jpg"
-                           width="150" height="100" alt="TI联盟市中科建设集团有限公司" />
-                    </a>
-                  </div>
-                  <div class="cont2">
-                      <img src="<%templateskin%>/Public/Uploads/569ca41a7a263.jpg" tppabs="http://www.datamapsoft.com/Public/Uploads/569ca41a7a263.jpg"
-                           width="150" height="100" alt="TI联盟市中科建设集团有限公司" />
-                    </a>
-                  </div>
-                </div>
-              </td>
-              <td>
-                <div class="pic partner_box">
-                  <div class="cont1">
-                      <img src="<%templateskin%>/Public/Uploads/56ea529438233.jpg" tppabs="http://www.datamapsoft.com/Public/Uploads/56ea529438233.jpg"
-                           width="150" height="100" alt="小牛资本" />
-                    </a>
-                  </div>
-                  <div class="cont2">
-                      <img src="<%templateskin%>/Public/Uploads/56ea529029b70.jpg" tppabs="http://www.datamapsoft.com/Public/Uploads/56ea529029b70.jpg"
-                           width="150" height="100" alt="小牛资本" />
-                    </a>
-                  </div>
-                </div>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <div class="pic partner_box">
-                </div>
-              </td>
-              <td>
-                <div class="pic partner_box">
-                </div>
-              </td>
-              <td>
-                <div class="pic partner_box">
-                </div>
-              </td>
-              <td>
-                <div class="pic partner_box">
-                </div>
-              </td>
-            </tr>
+
+          <%if({(CustomNewsList.Rows.IndexOf(dr)+1)}%4==0)%>
+             </tr>
+          <%/if%>
+          <%/foreach%>    
+
           </table>
         </div>
       </div>
