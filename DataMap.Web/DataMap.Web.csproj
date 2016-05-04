@@ -744,6 +744,7 @@
     <Content Include="templates\main\services.html" />
     <Content Include="templates\main\solutions.html" />
     <Content Include="templates\main\webdesign.html" />
+    <Content Include="templates\main\_righter.html" />
     <Content Include="templates\main\_footer.html" />
     <Content Include="templates\main\_header.html" />
     <Content Include="templates\main1\about.png" />

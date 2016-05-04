@@ -18,116 +18,38 @@
       }
     </script>
     <!--[if lt IE 9]>
-      <script type="text/javascript" src="../Public/Web/js/html5.js" tppabs="Public/Web/js/html5.js">
+      <script type="text/javascript" src="<%templateskin%>/Public/Web/js/html5.js" tppabs="<%templateskin%>/Public/Web/js/html5.js">
       </script>
     <![endif]-->
-    <link href="../Public/Web/css/style.css" tppabs="Public/Web/css/style.css"
+    <link href="<%templateskin%>/Public/Web/css/style.css" tppabs="<%templateskin%>/Public/Web/css/style.css"
     type="text/css" rel="stylesheet" />
-    <script src="../Public/Web/js/base.js" tppabs="Public/Web/js/base.js"
+    <script src="<%templateskin%>/Public/Web/js/base.js" tppabs="<%templateskin%>/Public/Web/js/base.js"
     type="text/javascript">
     </script>
-    <script src="../Public/Web/js/case2016.js" tppabs="Public/Web/js/case2016.js"
+    <script src="<%templateskin%>/Public/Web/js/case2016.js" tppabs="<%templateskin%>/Public/Web/js/case2016.js"
     type="text/javascript">
     </script>
     <!--[if lt IE 9]>
-      <script type="text/javascript" src="../Public/Web/js/respond.min.js" tppabs="Public/Web/js/respond.min.js">
+      <script type="text/javascript" src="<%templateskin%>/Public/Web/js/respond.min.js" tppabs="<%templateskin%>/Public/Web/js/respond.min.js">
       </script>
     <![endif]-->
   </head>
   
   <body>
-    <header class="header">
-      <div class="wrap">
-        <h1 class="fl">
-          <a href="../index.html" tppabs="" class="fl logo">
-            <img src="../Public/Web/images/index201601/logo.jpg" tppabs="Public/Web/images/index201601/logo.jpg"
-            alt="山西戴特数图网络科技有限公司" width="154" height="49" />
-          </a>
-        </h1>
-        <div class="fl logo_text">
-          <img src="../Public/Web/images/index201601/logo_text.jpg" tppabs="Public/Web/images/index201601/logo_text.jpg"
-          alt="懂你所需，做你所想" width="163" height="49" />
-        </div>
-        <div class="fr">
-          <div class="top">
-            <span class="call">
-            </span>
-            <span class="call_tel">
-              130-9752-8306
-            </span>
-            <a>
-              <span class="email">
-              </span>
-              datamapsoft@126.com
-            </a>
-            <a class="ewm">
-              <span class="weixin">
-              </span>
-              戴特数图软件
-              <img src="../Public/Web/images/contact_weixin.jpg" tppabs="Public/Web/images/contact_weixin.jpg"
-              width="258" height="258" alt="戴特数图微信" />
-            </a>
-          </div>
-          <nav class="nav">
-            <ul class="fix">
-              <li id="menu1">
-                <a href="../index.html" tppabs="">
-                  官网首页
-                </a>
-              </li>
-              <li id="menu2">
-                <a href="../about/index.html" tppabs="about/">
-                  关于我们
-                </a>
-              </li>
-              <li id="menu3">
-                <a href="index.html" tppabs="cases/">
-                  成功案例
-                </a>
-              </li>
-              <li id="menu4">
-                <a href="../service/index.html" tppabs="service/">
-                  服务范围
-                </a>
-              </li>
-              <li id="menu5">
-                <a href="../mobile/index.html" tppabs="mobile/">
-                  移动终端
-                </a>
-              </li>
-              <li id="menu6">
-                <a href="../solutions/index.html" tppabs="solutions/">
-                  解决方案
-                </a>
-              </li>
-              <li id="menu7">
-                <a href="../news/index.html" tppabs="news/">
-                  新闻资讯
-                </a>
-              </li>
-              <li id="menu8">
-                <a href="../contact/index.html" tppabs="contact/">
-                  联系我们
-                </a>
-              </li>
-            </ul>
-            <span class="nav_icon">
-            </span>
-          </nav>
-        </div>
-      </div>
-    </header>
+      <!--Header-->
+      <%template src="_header.html"%>
+      <!--/Header-->
     <script type="text/javascript">
       document.getElementById("menu3").className = "on";
     </script>
     <!--banner-->
-    <div class="inside_banner" style="background: url('http://www.datamapsoft.com/Public/Web/images/banner_case.jpg') no-repeat center;height: 400px;">
+    <div class="inside_banner" style="background: url('<%templateskin%>/Public/Web/images/banner_case.jpg') no-repeat center; height: 400px;">
     </div>
     <a name="case">
     </a>
     <div class="case_t wrap">
       <div class="case_t_img">
-        <img src="../Public/Web/images/index201601/case_t.jpg" tppabs="Public/Web/images/index201601/case_t.jpg"
+        <img src="<%templateskin%>/Public/Web/images/index201601/case_t.jpg" tppabs="<%templateskin%>/Public/Web/images/index201601/case_t.jpg"
         width="156" height="39" alt="CASE" />
       </div>
       <div class="case_t_title">
@@ -172,7 +94,7 @@
       <div class="case_search">
         <div class="case_seek">
           <input type="text" value="" name="k" id="k" class="text" />
-          <img src="../Public/Web/images/c03.jpg" tppabs="Public/Web/images/c03.jpg"
+          <img src="<%templateskin%>/Public/Web/images/c03.jpg" tppabs="<%templateskin%>/Public/Web/images/c03.jpg"
           onClick="search_cases()" alt="搜索网站案例" width="16" height="16" />
         </div>
       </div>
@@ -183,7 +105,7 @@
         <!-- Thumbnail -->
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="129.html" tppabs="cases/129.html" target="_blank">
-            <img src="../Public/Uploads/1430723818.jpg" tppabs="Public/Uploads/1430723818.jpg"
+            <img src="<%templateskin%>/Public/Uploads/1430723818.jpg" tppabs="<%templateskin%>/Public/Uploads/1430723818.jpg"
             class="cases_img" width="385" height="250" alt="澳邦乳业-澳德华园" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -206,7 +128,7 @@
         </li>
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="193.html" tppabs="cases/193.html" target="_blank">
-            <img src="../Public/Uploads/555ad7d7b3f55.jpg" tppabs="Public/Uploads/555ad7d7b3f55.jpg"
+            <img src="<%templateskin%>/Public/Uploads/555ad7d7b3f55.jpg" tppabs="<%templateskin%>/Public/Uploads/555ad7d7b3f55.jpg"
             class="cases_img" width="385" height="250" alt="东海航空" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -228,7 +150,7 @@
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="javascript:if(confirm('cases/75.html  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='cases/75.html'"
           tppabs="cases/75.html" target="_blank">
-            <img src="../Public/Uploads/1430363427.jpg" tppabs="Public/Uploads/1430363427.jpg"
+            <img src="<%templateskin%>/Public/Uploads/1430363427.jpg" tppabs="<%templateskin%>/Public/Uploads/1430363427.jpg"
             class="cases_img" width="385" height="250" alt="磨房旅游网站" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -251,7 +173,7 @@
         </li>
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="226.html" tppabs="cases/226.html" target="_blank">
-            <img src="../Public/Uploads/56a0a2215b1d9.jpg" tppabs="Public/Uploads/56a0a2215b1d9.jpg"
+            <img src="<%templateskin%>/Public/Uploads/56a0a2215b1d9.jpg" tppabs="<%templateskin%>/Public/Uploads/56a0a2215b1d9.jpg"
             class="cases_img" width="385" height="250" alt="深圳机场地产" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -274,7 +196,7 @@
         </li>
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="238.html" tppabs="cases/238.html" target="_blank">
-            <img src="../Public/Uploads/56f661d13e47a.jpg" tppabs="Public/Uploads/56f661d13e47a.jpg"
+            <img src="<%templateskin%>/Public/Uploads/56f661d13e47a.jpg" tppabs="<%templateskin%>/Public/Uploads/56f661d13e47a.jpg"
             class="cases_img" width="385" height="250" alt="日通国际物流（深圳）有限公司" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -295,7 +217,7 @@
         </li>
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="53.html" tppabs="cases/53.html" target="_blank">
-            <img src="../Public/Uploads/1430709023.jpg" tppabs="Public/Uploads/1430709023.jpg"
+            <img src="<%templateskin%>/Public/Uploads/1430709023.jpg" tppabs="<%templateskin%>/Public/Uploads/1430709023.jpg"
             class="cases_img" width="385" height="250" alt="欧杰酒业-商城" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -316,7 +238,7 @@
         </li>
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="133.html" tppabs="cases/133.html" target="_blank">
-            <img src="../Public/Uploads/55532e8b0d698.jpg" tppabs="Public/Uploads/55532e8b0d698.jpg"
+            <img src="<%templateskin%>/Public/Uploads/55532e8b0d698.jpg" tppabs="<%templateskin%>/Public/Uploads/55532e8b0d698.jpg"
             class="cases_img" width="385" height="250" alt="美联英语" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -339,7 +261,7 @@
         </li>
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="221.html" tppabs="cases/221.html" target="_blank">
-            <img src="../Public/Uploads/55cab873042a9.jpg" tppabs="Public/Uploads/55cab873042a9.jpg"
+            <img src="<%templateskin%>/Public/Uploads/55cab873042a9.jpg" tppabs="<%templateskin%>/Public/Uploads/55cab873042a9.jpg"
             class="cases_img" width="385" height="250" alt="传奇数码" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -360,7 +282,7 @@
         </li>
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="184.html" tppabs="cases/184.html" target="_blank">
-            <img src="../Public/Uploads/554c30918f936.jpg" tppabs="Public/Uploads/554c30918f936.jpg"
+            <img src="<%templateskin%>/Public/Uploads/554c30918f936.jpg" tppabs="<%templateskin%>/Public/Uploads/554c30918f936.jpg"
             class="cases_img" width="385" height="250" alt="乐普医疗" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -381,7 +303,7 @@
         </li>
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="194.html" tppabs="cases/194.html" target="_blank">
-            <img src="../Public/Uploads/555c4cc41e330.jpg" tppabs="Public/Uploads/555c4cc41e330.jpg"
+            <img src="<%templateskin%>/Public/Uploads/555c4cc41e330.jpg" tppabs="<%templateskin%>/Public/Uploads/555c4cc41e330.jpg"
             class="cases_img" width="385" height="250" alt="大族元亨光电股份" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -404,7 +326,7 @@
         </li>
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="224.html" tppabs="cases/224.html" target="_blank">
-            <img src="../Public/Uploads/56261c2fe31dd.jpg" tppabs="Public/Uploads/56261c2fe31dd.jpg"
+            <img src="<%templateskin%>/Public/Uploads/56261c2fe31dd.jpg" tppabs="<%templateskin%>/Public/Uploads/56261c2fe31dd.jpg"
             class="cases_img" width="385" height="250" alt="顺天运环保科-立冰电器" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -425,7 +347,7 @@
         </li>
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="234.html" tppabs="cases/234.html" target="_blank">
-            <img src="../Public/Uploads/5673e73118f94.png" tppabs="Public/Uploads/5673e73118f94.png"
+            <img src="<%templateskin%>/Public/Uploads/5673e73118f94.png" tppabs="<%templateskin%>/Public/Uploads/5673e73118f94.png"
             class="cases_img" width="385" height="250" alt="浙江鹏孚隆科技有限公司" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -446,7 +368,7 @@
         </li>
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="230.html" tppabs="cases/230.html" target="_blank">
-            <img src="../Public/Uploads/56501be288c39.jpg" tppabs="Public/Uploads/56501be288c39.jpg"
+            <img src="<%templateskin%>/Public/Uploads/56501be288c39.jpg" tppabs="<%templateskin%>/Public/Uploads/56501be288c39.jpg"
             class="cases_img" width="385" height="250" alt="云罐-同方股份" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -468,7 +390,7 @@
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="javascript:if(confirm('cases/107.html  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='cases/107.html'"
           tppabs="cases/107.html" target="_blank">
-            <img src="../Public/Uploads/1430380990.jpg" tppabs="Public/Uploads/1430380990.jpg"
+            <img src="<%templateskin%>/Public/Uploads/1430380990.jpg" tppabs="<%templateskin%>/Public/Uploads/1430380990.jpg"
             class="cases_img" width="385" height="250" alt="新居网" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -492,7 +414,7 @@
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="javascript:if(confirm('cases/128.html  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='cases/128.html'"
           tppabs="cases/128.html" target="_blank">
-            <img src="../Public/Uploads/1430374099.jpg" tppabs="Public/Uploads/1430374099.jpg"
+            <img src="<%templateskin%>/Public/Uploads/1430374099.jpg" tppabs="<%templateskin%>/Public/Uploads/1430374099.jpg"
             class="cases_img" width="385" height="250" alt="钱贷网P2P" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -515,7 +437,7 @@
         </li>
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="137.html" tppabs="cases/137.html" target="_blank">
-            <img src="../Public/Uploads/1430378139.jpg" tppabs="Public/Uploads/1430378139.jpg"
+            <img src="<%templateskin%>/Public/Uploads/1430378139.jpg" tppabs="<%templateskin%>/Public/Uploads/1430378139.jpg"
             class="cases_img" width="385" height="250" alt="环球石材集团" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -536,7 +458,7 @@
         </li>
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="223.html" tppabs="cases/223.html" target="_blank">
-            <img src="../Public/Uploads/56161315d7391.jpg" tppabs="Public/Uploads/56161315d7391.jpg"
+            <img src="<%templateskin%>/Public/Uploads/56161315d7391.jpg" tppabs="<%templateskin%>/Public/Uploads/56161315d7391.jpg"
             class="cases_img" width="385" height="250" alt="我爱海淘" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -558,7 +480,7 @@
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="javascript:if(confirm('cases/72.html  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='cases/72.html'"
           tppabs="cases/72.html" target="_blank">
-            <img src="../Public/Uploads/567a156467f7b.jpg" tppabs="Public/Uploads/567a156467f7b.jpg"
+            <img src="<%templateskin%>/Public/Uploads/567a156467f7b.jpg" tppabs="<%templateskin%>/Public/Uploads/567a156467f7b.jpg"
             class="cases_img" width="385" height="250" alt="流明声" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -582,7 +504,7 @@
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="javascript:if(confirm('cases/113.html  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='cases/113.html'"
           tppabs="cases/113.html" target="_blank">
-            <img src="../Public/Uploads/1430380096.jpg" tppabs="Public/Uploads/1430380096.jpg"
+            <img src="<%templateskin%>/Public/Uploads/1430380096.jpg" tppabs="<%templateskin%>/Public/Uploads/1430380096.jpg"
             class="cases_img" width="385" height="250" alt=" 品途旅游网" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -605,7 +527,7 @@
         </li>
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="134.html" tppabs="cases/134.html" target="_blank">
-            <img src="../Public/Uploads/1430365968.jpg" tppabs="Public/Uploads/1430365968.jpg"
+            <img src="<%templateskin%>/Public/Uploads/1430365968.jpg" tppabs="<%templateskin%>/Public/Uploads/1430365968.jpg"
             class="cases_img" width="385" height="250" alt="深圳市侨宸智能模型有限公司" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -626,7 +548,7 @@
         </li>
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="164.html" tppabs="cases/164.html" target="_blank">
-            <img src="../Public/Uploads/1430379704.jpg" tppabs="Public/Uploads/1430379704.jpg"
+            <img src="<%templateskin%>/Public/Uploads/1430379704.jpg" tppabs="<%templateskin%>/Public/Uploads/1430379704.jpg"
             class="cases_img" width="385" height="250" alt="宝石汇商城" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -649,7 +571,7 @@
         </li>
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="231.html" tppabs="cases/231.html" target="_blank">
-            <img src="../Public/Uploads/56501e267afd0.jpg" tppabs="Public/Uploads/56501e267afd0.jpg"
+            <img src="<%templateskin%>/Public/Uploads/56501e267afd0.jpg" tppabs="<%templateskin%>/Public/Uploads/56501e267afd0.jpg"
             class="cases_img" width="385" height="250" alt="深圳大剧院" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -670,7 +592,7 @@
         </li>
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="237.html" tppabs="cases/237.html" target="_blank">
-            <img src="../Public/Uploads/56dff960a79bb.jpg" tppabs="Public/Uploads/56dff960a79bb.jpg"
+            <img src="<%templateskin%>/Public/Uploads/56dff960a79bb.jpg" tppabs="<%templateskin%>/Public/Uploads/56dff960a79bb.jpg"
             class="cases_img" width="385" height="250" alt="小牛资本" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -693,7 +615,7 @@
         </li>
         <li class="thumbnail" style="display:block;opacity:1;">
           <a class="thumbnail_a" href="22.html" tppabs="cases/22.html" target="_blank">
-            <img src="../Public/Uploads/1430366429.jpg" tppabs="Public/Uploads/1430366429.jpg"
+            <img src="<%templateskin%>/Public/Uploads/1430366429.jpg" tppabs="<%templateskin%>/Public/Uploads/1430366429.jpg"
             class="cases_img" width="385" height="250" alt="国微技术" />
             <div class="projectinfo" style="display: none;">
             </div>
@@ -723,164 +645,12 @@
     </div>
     <div class="px20">
     </div>
-    <footer class="footer">
-      <div class="contact">
-        <div class="wrap">
-          <div class="home_about fl">
-            <dl>
-              <dt>
-                <a href="index.html" tppabs="http://www.datamapsoft.com/about/">
-                  关于我们
-                </a>
-              </dt>
-              <dd>
-                TI联盟专注于网站定制，始终追求“用最快的速度定制出最好的网站”。懂您所需、做您所想！我们一直在思考如何为客户创造更大的价值，让客户更省心!
-              </dd>
-              <dd>
-                <a href="index.html" tppabs="about/" class="more">
-                  查看更多 >>
-                </a>
-              </dd>
-            </dl>
-          </div>
-          <div class="home_case fl">
-            <h2>
-              <a href="../cases/index.html" tppabs="http://www.datamapsoft.com/cases/">
-                最新案例
-              </a>
-            </h2>
-            <ul>
-              <li>
-                <h5>
-                  <a href="#" tppabs="#" target="_blank">
-                    日通国际物流（深圳...
-                  </a>
-                </h5>
-                <p class="text">
-                  <a href="#" tppabs="#" target="_blank">
-                    日通国际物流（深圳）有限公司是...
-                  </a>
-                </p>
-              </li>
-              <li>
-                <h5>
-                  <a href="#" tppabs="#" target="_blank">
-                    小牛资本
-                  </a>
-                </h5>
-                <p class="text">
-                  <a href="#" tppabs="#" target="_blank">
-                    小牛资本管理集团以互联网金...
-                  </a>
-                </p>
-              </li>
-            </ul>
-          </div>
-          <div class="home_service fl">
-            <h2>
-              <a href="#" tppabs="#">
-                服务范围
-              </a>
-            </h2>
-            <a class="sub" href="#" tppabs="#">
-              品牌官网设计
-            </a>
-            <a class="sub" href="#" tppabs="#">
-              商城网站建设
-            </a>
-            <a class="sub" href="#" tppabs="#">
-              手机网站建设
-            </a>
-            <a class="sub" href="#" tppabs="#">
-              微信网站建设
-            </a>
-            <a class="sub" href="#" tppabs="#">
-              其他网站定制
-            </a>
-          </div>
-          <div class="home_contact fl">
-            <h2>
-              <a href="../contact/index.html" tppabs="#">
-                联系我们
-              </a>
-            </h2>
-            <ul>
-              <li>
-                </i>
-              </li>
-              <li>
-                <i class="weibo">
-                </i>
-                Q Q：
-                <a target="_blank" rel="nofollow" href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=174566696&site=qq&menu=yes  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=174566696&site=qq&menu=yes'"
-                tppabs="http://wpa.qq.com/msgrd?v=3&uin=174566696&site=qq&menu=yes">
-                  174566696
-                </a>
-              </li>
-              <li>
-                <i class="email">
-                </i>
-                邮 箱：
-                <a target="_blank" rel="nofollow" href="mailto:174566696@qq.com">
-                  datamapsoft@126.com
-                </a>
-              </li>
-              <li>
-                <i class="call">
-                </i>
-                电 话：130-9752-8306
-              </li>
-              <li>
-                <i class="weixin">
-                </i>
-                <a href="../contact/pay.html" tppabs="../contact/pay.html">
-                  付款方式
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="blogroll">
-        <div class="wrap">
-          <p class="copyright">
-            @2015-2016 版权所有 山西戴特数图网络科技有限公司 ICP备12071364号
-          </p>
-        </div>
-      </div>
-    </footer>
-    <div class="right_contact_201601" id="right_contact_201601">
-      <ul>
-        <li class="li_top" onClick="gotop_201601()">
-        </li>
-        <li class="li_tel">
-          <div class="hover">
-            <div class="text">
-              130-9752-8306
-              <br>
-              0000-0000 0000
-            </div>
-          </div>
-        </li>
-        <li class="li_qq">
-          <div class="text">
-            <a target="_blank" rel="nofollow" href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=174566696&site=qq&menu=yes  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=174566696&site=qq&menu=yes'"
-            tppabs="http://wpa.qq.com/msgrd?v=3&uin=174566696&site=qq&menu=yes">
-              <img border="0" src="../Public/Web/images/index201601/qq.png" tppabs="Public/Web/images/index201601/qq.png"
-              width="90px" height="20px" alt="174566696" />
-            </a>
-            <br>
-            <a target="_blank" rel="nofollow" href="javascript:if(confirm('http://wpa.qq.com/msgrd?v=3&uin=174566696&site=qq&menu=yes  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ�����·���ⲿ������Ϊ������ʼ��ַ�ĵ�ַ��  \n\n�����ڷ������ϴ���?'))window.location='http://wpa.qq.com/msgrd?v=3&uin=174566696&site=qq&menu=yes'"
-            tppabs="http://wpa.qq.com/msgrd?v=3&uin=174566696&site=qq&menu=yes">
-              <img border="0" src="../Public/Web/images/index201601/qq.png" tppabs="Public/Web/images/index201601/qq.png"
-              width="90px" height="20px" alt="174566696" />
-            </a>
-          </div>
-        </li>
-        <li class="li_close" onClick="close_contact_201601()">
-        </li>
-      </ul>
-    </div>
+      <!--footer-->
+      <%template src="_footer.html"%>
+      <!--footer-->
+      <!--righter-->
+      <%template src="_righter.html"%>
+      <!--righter-->
     </div>
   </body>
 
