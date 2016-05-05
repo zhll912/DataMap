@@ -1202,26 +1202,26 @@ namespace DataMap.Common
             }
             StringBuilder pageStr = new StringBuilder();
             string pageId = "__id__";
-            string firstBtn = "<a href=\"" + ReplaceStr(linkUrl, pageId, (pageIndex - 1).ToString()) + "\">«上一页</a>";
-            string lastBtn = "<a href=\"" + ReplaceStr(linkUrl, pageId, (pageIndex + 1).ToString()) + "\">下一页»</a>";
+            //string firstBtn = "<a href=\"" + ReplaceStr(linkUrl, pageId, (pageIndex - 1).ToString()) + "\">«上一页</a>";
+            //string lastBtn = "<a href=\"" + ReplaceStr(linkUrl, pageId, (pageIndex + 1).ToString()) + "\">下一页»</a>";
             string firstStr = "<a href=\"" + ReplaceStr(linkUrl, pageId, "1") + "\">1</a>";
             string lastStr = "<a href=\"" + ReplaceStr(linkUrl, pageId, pageCount.ToString()) + "\">" + pageCount.ToString() + "</a>";
 
-            if (pageIndex <= 1)
-            {
-                firstBtn = "<span class=\"disabled\">«上一页</span>";
-            }
-            if (pageIndex >= pageCount)
-            {
-                lastBtn = "<span class=\"disabled\">下一页»</span>";
-            }
+            //if (pageIndex <= 1)
+            //{
+            //    firstBtn = "<span class=\"disabled\">«上一页</span>";
+            //}
+            //if (pageIndex >= pageCount)
+            //{
+            //    lastBtn = "<span class=\"disabled\">下一页»</span>";
+            //}
             if (pageIndex == 1)
             {
-                firstStr = "<span class=\"current\">1</span>";
+                firstStr = "<a class=\"now\">1</a>";
             }
             if (pageIndex == pageCount)
             {
-                lastStr = "<span class=\"current\">" + pageCount.ToString() + "</span>";
+                lastStr = "<a class=\"now\">" + pageCount.ToString() + "</a>";
             }
             int firstNum = pageIndex - (centSize / 2); //中间开始的页码
             if (pageIndex < centSize)
@@ -1229,28 +1229,28 @@ namespace DataMap.Common
             int lastNum = pageIndex + centSize - ((centSize / 2) + 1); //中间结束的页码
             if (lastNum >= pageCount)
                 lastNum = pageCount - 1;
-            pageStr.Append("<span>共" + totalCount + "记录</span>");
-            pageStr.Append(firstBtn + firstStr);
-            if (pageIndex >= centSize)
-            {
-                pageStr.Append("<span>...</span>\n");
-            }
+            //pageStr.Append("<span>共" + totalCount + "记录</span>");
+            pageStr.Append(firstStr);
+            //if (pageIndex >= centSize)
+            //{
+            //    pageStr.Append("<span>...</span>\n");
+            //}
             for (int i = firstNum; i <= lastNum; i++)
             {
                 if (i == pageIndex)
                 {
-                    pageStr.Append("<span class=\"current\">" + i + "</span>");
+                    pageStr.Append("<a class=\"now\">" + i + "</a>");
                 }
                 else
                 {
                     pageStr.Append("<a href=\"" + ReplaceStr(linkUrl, pageId, i.ToString()) + "\">" + i + "</a>");
                 }
             }
-            if (pageCount - pageIndex > centSize - ((centSize / 2)))
-            {
-                pageStr.Append("<span>...</span>");
-            }
-            pageStr.Append(lastStr + lastBtn);
+            //if (pageCount - pageIndex > centSize - ((centSize / 2)))
+            //{
+            //    pageStr.Append("<span>...</span>");
+            //}
+            pageStr.Append(lastStr);
             return pageStr.ToString();
         }
         #endregion

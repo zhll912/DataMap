@@ -450,6 +450,7 @@
     <Content Include="templates\main\about.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="templates\main\cases_list.html" />
     <Content Include="templates\main\cases.html" />
     <Content Include="templates\main\contact.html" />
     <Content Include="templates\main\favicon.ico" />
