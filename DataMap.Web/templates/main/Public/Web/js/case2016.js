@@ -17,11 +17,11 @@
  *	
  * 	<div id="slider">
  *		<ul>
- *			<li><img src="http://www.szfangwei.cn/Index/empty404 alt="" /></li>
- *			<li><img src="http://www.szfangwei.cn/Index/empty404 alt="" /></li>
- *			<li><img src="http://www.szfangwei.cn/Index/empty404 alt="" /></li>
- *			<li><img src="http://www.szfangwei.cn/Index/empty404 alt="" /></li>
- *			<li><img src="http://www.szfangwei.cn/Index/empty404 alt="" /></li>
+ *			<li><img src="http://www.datamapsoft.com/Index/empty404 alt="" /></li>
+ *			<li><img src="http://www.datamapsoft.com/Index/empty404 alt="" /></li>
+ *			<li><img src="http://www.datamapsoft.com/Index/empty404 alt="" /></li>
+ *			<li><img src="http://www.datamapsoft.com/Index/empty404 alt="" /></li>
+ *			<li><img src="http://www.datamapsoft.com/Index/empty404 alt="" /></li>
  *		</ul>
  *	</div>
  *
@@ -225,7 +225,7 @@
 
 
 /**
- * Created by www.szfangwei.cn 2015-4-30
+ * Created by www.datamapsoft.com 2015-4-30
  */
 $(document).ready(function() {
     
@@ -282,5 +282,5 @@ $(document).ready(function() {
 //search
 function search_cases() {
     var k = $("#k").val();
-    document.location = "../../../Cases/search-k=.htm"/*tpa=http://www.szfangwei.cn/Cases/search?k=*/ + encodeURI(k)+"#case";
+    document.location = "../../../Cases/search-k=.htm"/*tpa=http://www.datamapsoft.com/Cases/search?k=*/ + encodeURI(k)+"#case";
 }

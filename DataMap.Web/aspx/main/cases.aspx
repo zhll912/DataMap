@@ -9,8 +9,8 @@ override protected void OnInit(EventArgs e)
 {
 
 	/* 
-		This page was created by DataMap Template Engine at 2016/5/5 16:52:29.
-		本页面代码由DataMap模板引擎生成于 2016/5/5 16:52:29. 
+		This page was created by DataMap Template Engine at 2016/5/6 11:39:02.
+		本页面代码由DataMap模板引擎生成于 2016/5/6 11:39:02. 
 	*/
 
 	base.OnInit(e);
@@ -18,7 +18,7 @@ override protected void OnInit(EventArgs e)
 	const string channel = "cases";
 	const int pagesize = 12;
 
-	templateBuilder.Append("<!DOCTYPE html>\r\n<html>\r\n  \r\n  <head>\r\n    <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\r\n    <meta name=\"author\" content=\"山西戴特数图网络科技有限公司\" />\r\n    <title>\r\n      成功案例-山西戴特数图网络科技有限公司\r\n    </title>\r\n    <meta name=\"keywords\" content=\"\" />\r\n    <meta name=\"description\" content=\"山西戴特数图网络科技有限公司\" />\r\n    <meta name=\"mobile-agent\" content=\"format=html5;url=http://www.datamapsoft.com\"\r\n    />\r\n    <script type=\"text/javascript\">\r\n      if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i))) {\r\n        location.replace(\"http://m.datamapsoft.com/Cases/index\");\r\n      }\r\n    </");
+	templateBuilder.Append("<!DOCTYPE html>\r\n<html>\r\n  \r\n  <head>\r\n    <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />\r\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\" />\r\n    <meta name=\"author\" content=\"山西戴特数图网络科技有限公司\" />\r\n    <title>\r\n      成功案例-山西戴特数图网络科技有限公司\r\n    </title>\r\n      <meta name=\"keywords\" content=\"临汾网站建设,临汾网站制作，临汾网站定制，临汾网页设计\" />\r\n      <meta name=\"description\" content=\"临汾网站建设,临汾网站制作，临汾网站定制，临汾网页设计\" />\r\n    <meta name=\"mobile-agent\" content=\"format=html5;url=http://www.datamapsoft.com\"\r\n    />\r\n    <script type=\"text/javascript\">\r\n      if ((navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i))) {\r\n        location.replace(\"http://m.datamapsoft.com/Cases/index\");\r\n      }\r\n    </");
 	templateBuilder.Append("script>\r\n    <!--[if lt IE 9]>\r\n      <script type=\"text/javascript\" src=\"");
 	templateBuilder.Append("/templates/main");
 	templateBuilder.Append("/Public/Web/js/html5.js\" tppabs=\"");
@@ -69,7 +69,7 @@ override protected void OnInit(EventArgs e)
 	{
 
 	templateBuilder.Append("\r\n        <li>\r\n            <a href=\"");
-	templateBuilder.Append(linkurl("cases_list",Utils.ObjectToStr(cdr["id"])));
+	templateBuilder.Append(linkurl("cases",Utils.ObjectToStr(cdr["id"])));
 
 	templateBuilder.Append("\" tppabs=\"#\">\r\n                " + Utils.ObjectToStr(cdr["title"]) + "\r\n            </a>\r\n        </li>\r\n          ");
 	}	//end for if
@@ -78,7 +78,7 @@ override protected void OnInit(EventArgs e)
 	templateBuilder.Append("/templates/main");
 	templateBuilder.Append("/Public/Web/images/c03.jpg\" tppabs=\"");
 	templateBuilder.Append("/templates/main");
-	templateBuilder.Append("/Public/Web/images/c03.jpg\"\r\n          onClick=\"search_cases()\" alt=\"搜索网站案例\" width=\"16\" height=\"16\" />\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <!---->\r\n    <div class=\"case_list_201601\">\r\n      <ul class=\"portfolio-grid fix\">\r\n        <!-- Thumbnail -->\r\n          ");
+	templateBuilder.Append("/Public/Web/images/c03.jpg\"\r\n          onClick=\"search_cases()\" alt=\"搜索案例\" width=\"16\" height=\"16\" />\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <!---->\r\n    <div class=\"case_list_201601\">\r\n      <ul class=\"portfolio-grid fix\">\r\n        <!-- Thumbnail -->\r\n          ");
 	DataTable casesList = get_article_list(channel, category_id, pagesize, page, "status=0", out totalcount, out pagelist, "cases_list", category_id, "__id__");
 
 	templateBuilder.Append("<!--取得一个分页DataTable-->\r\n          ");
@@ -118,17 +118,20 @@ override protected void OnInit(EventArgs e)
 	foreach(DataRow dr in footfocuscases.Rows)
 	{
 
-	templateBuilder.Append("\r\n                    <li>\r\n                        <h5>\r\n                            <a href=\"");
+	templateBuilder.Append("\r\n                    <li>\r\n                        <a href=\"");
+	templateBuilder.Append(linkurl("cases_show",Utils.ObjectToStr(dr["id"])));
+
+	templateBuilder.Append("\" tppabs=\"#\" target=\"_blank\">\r\n                            <img width=\"80\" height=\"52\" alt=\"" + Utils.ObjectToStr(dr["title"]) + "\" src=\"" + Utils.ObjectToStr(dr["img_url"]) + "\"> \r\n                        </a>\r\n                        <h5>\r\n                            <a href=\"");
 	templateBuilder.Append(linkurl("cases_show",Utils.ObjectToStr(dr["id"])));
 
 	templateBuilder.Append("\" tppabs=\"#\" target=\"_blank\">\r\n                                ");
-	templateBuilder.Append(Utils.DropHTML(Utils.ObjectToStr(dr["title"]),28));
+	templateBuilder.Append(Utils.DropHTML(Utils.ObjectToStr(dr["title"]),20));
 
 	templateBuilder.Append("\r\n                            </a>\r\n                        </h5>\r\n                        <p class=\"text\">\r\n                            <a href=\"");
 	templateBuilder.Append(linkurl("cases_show",Utils.ObjectToStr(dr["id"])));
 
 	templateBuilder.Append("\" tppabs=\"#\" target=\"_blank\">\r\n                                ");
-	templateBuilder.Append(Utils.DropHTML(Utils.ObjectToStr(dr["zhaiyao"]),28));
+	templateBuilder.Append(Utils.DropHTML(Utils.ObjectToStr(dr["zhaiyao"]),20));
 
 	templateBuilder.Append("\r\n                            </a>\r\n                        </p>\r\n                    </li>\r\n                    ");
 	}	//end for if

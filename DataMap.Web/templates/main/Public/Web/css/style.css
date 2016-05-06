@@ -40,10 +40,10 @@ a:active{color:#0093ff;text-decoration:none;}
 .header .logo_text{width:163px;margin-top:24px;padding-left:5px;}
 .top{text-align:right;color:#888888;padding-top:12px;*position:relative;*z-index:2;}
 .top a{color:#888888;margin-left: 8px;}
-.top .call{background: url("../images/sprite.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/sprite.png*/ no-repeat 0 0;display:inline-block;width:20px;height:16px;vertical-align:bottom;margin-right:4px;}
+.top .call{background: url("../images/sprite.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/sprite.png*/ no-repeat 0 0;display:inline-block;width:20px;height:16px;vertical-align:bottom;margin-right:4px;}
 .top .call_tel{color:#15909c;}
-.top .email{display:inline-block;width:18px;height:16px;background:url("../images/sprite.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/sprite.png*/ no-repeat -20px 0;vertical-align:bottom;margin-right:4px;}
-.top .weixin{display:inline-block;width:18px;height:16px;background:url("../images/sprite.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/sprite.png*/ no-repeat -60px 0;vertical-align:bottom;margin-right:4px;}
+.top .email{display:inline-block;width:18px;height:16px;background:url("../images/sprite.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/sprite.png*/ no-repeat -20px 0;vertical-align:bottom;margin-right:4px;}
+.top .weixin{display:inline-block;width:18px;height:16px;background:url("../images/sprite.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/sprite.png*/ no-repeat -60px 0;vertical-align:bottom;margin-right:4px;}
 .top .ewm{position:relative;z-index:10000;}
 .top .ewm img{position:absolute;right:0;top:30px;z-index:999;border:1px solid #ddd;padding:4px;background:#fff;display:none;z-index:10000;}
 
@@ -79,11 +79,11 @@ a:active{color:#0093ff;text-decoration:none;}
 .home_contact{margin-left:40px;}
 .home_contact li{color: #ddd;margin-bottom: 14px;}
 .home_contact li i{display:inline-block;width:18px;height:18px;margin-right: 10px;vertical-align: middle;}
-.home_contact li .addres{background: url("../images/sprite.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/sprite.png*/ no-repeat 0 -20px  ;}
-.home_contact li .weibo{background: url("../images/sprite.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/sprite.png*/ no-repeat -20px -20px  ;}
-.home_contact li .email{background: url("../images/sprite.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/sprite.png*/ no-repeat -40px -20px  ;}
-.home_contact li .weixin{background: url("../images/sprite.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/sprite.png*/ no-repeat -80px -20px  ;}
-.home_contact li .call{background: url("../images/sprite.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/sprite.png*/ no-repeat -0px -0px  ;}
+.home_contact li .addres{background: url("../images/sprite.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/sprite.png*/ no-repeat 0 -20px  ;}
+.home_contact li .weibo{background: url("../images/sprite.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/sprite.png*/ no-repeat -20px -20px  ;}
+.home_contact li .email{background: url("../images/sprite.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/sprite.png*/ no-repeat -40px -20px  ;}
+.home_contact li .weixin{background: url("../images/sprite.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/sprite.png*/ no-repeat -80px -20px  ;}
+.home_contact li .call{background: url("../images/sprite.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/sprite.png*/ no-repeat -0px -0px  ;}
 .home_contact li a{color: #ddd;}
 .blogroll{line-height: 28px;color: #999;text-align: center;padding: 30px 0;}
 .blogroll a{color: #999;display:inline-block;}
@@ -92,10 +92,10 @@ a:active{color:#0093ff;text-decoration:none;}
 
 /*inside*/
 .inside_banner{position: relative;}
-.inside_banner_service{background: url("../images/service_banner.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/service_banner.jpg*/ no-repeat center;height: 400px;}
-.inside_banner_mobile{background: url("../images/m_banner.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/m_banner.jpg*/ no-repeat center;height: 400px;}
-.inside_banner_solution{background: url("../images/sl_banner.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/sl_banner.jpg*/ no-repeat center;height: 400px;}
-.inside_banner_news{background: url("../images/n_banner.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/n_banner.jpg*/ no-repeat center;height: 400px;}
+.inside_banner_service{background: url("../images/service_banner.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/service_banner.jpg*/ no-repeat center;height: 400px;}
+.inside_banner_mobile{background: url("../images/m_banner.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/m_banner.jpg*/ no-repeat center;height: 400px;}
+.inside_banner_solution{background: url("../images/sl_banner.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/sl_banner.jpg*/ no-repeat center;height: 400px;}
+.inside_banner_news{background: url("../images/n_banner.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/n_banner.jpg*/ no-repeat center;height: 400px;}
 .inside_banner .wrap{height: 100%;}
 .about{overflow: hidden;}
 .about_tab{width: 1200px;margin: 0 auto;position: relative;height: 100%;}
@@ -114,16 +114,16 @@ a:active{color:#0093ff;text-decoration:none;}
 .about_cont{padding-bottom: 30px;margin-bottom: 30px;position: relative;}
 .about_main .about_cont:first-child{border-bottom: 1px dashed #d3d3d3; }
 .about_cont h2{font-size: 26px;color: #333;font-weight: normal;margin-bottom: 5px;}
-.about_cont h4{font-size: 16px;color: #333;font-weight: normal;background: url("../images/a03.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/a03.jpg*/ no-repeat left bottom;padding-bottom: 8px;margin-bottom: 30px;white-space: nowrap;}
+.about_cont h4{font-size: 16px;color: #333;font-weight: normal;background: url("../images/a03.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/a03.jpg*/ no-repeat left bottom;padding-bottom: 8px;margin-bottom: 30px;white-space: nowrap;}
 .about_cont .text{font-size: 14px;color: #333;line-height: 28px;}
 .about_cont li{margin-bottom: 14px;width:300px;float:left;}
 .about_cont li span{background: #4bcdd9;color: #fff;font-size: 10px;padding:0 4px;margin-right: 8px;line-height: 12px;*padding: 2px 4px;}
-.culture{background: url("../images/a04.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/a04.jpg*/ no-repeat center;min-height: 540px; }
+.culture{background: url("../images/a04.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/a04.jpg*/ no-repeat center;min-height: 540px; }
 .culture  .about_cont:first-child{border: 0;}
 .zhizi{background: #f7f7f7;text-align: center;padding-bottom: 74px;}
 .zhizi ul{display: inline-block;*display: inline;zoom: 1;}
 .zhizi li{float: left;margin: 0 13px;}
-.jion{background: url("../images/a14.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/a14.jpg*/ no-repeat center;min-height: 720px;}
+.jion{background: url("../images/a14.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/a14.jpg*/ no-repeat center;min-height: 720px;}
 .jion .test{border-width: 78px 0;border-style: solid;border-color: #2eafbb transparent transparent transparent;width: 0;height: 0;  }
 .jion .about_title{position: relative;z-index: 3;}
 .jion_box{width: 1200px;margin: 0 auto;position: relative;}
@@ -131,12 +131,12 @@ a:active{color:#0093ff;text-decoration:none;}
 .jion_img>img:first-child{position: relative;top:151px;margin-right:-3px;    }
 .jion_img img{}
 .jion_tab{position: absolute;top:151px;left: 75px;}
-.jion_tab li{float: left;width: 150px;height:150px;line-height:150px;text-align:center;font-size: 20px;color: #fff;text-align: center;background: url("../images/a19.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/a19.png*/ no-repeat;cursor: pointer;}
+.jion_tab li{float: left;width: 150px;height:150px;line-height:150px;text-align:center;font-size: 20px;color: #fff;text-align: center;background: url("../images/a19.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/a19.png*/ no-repeat;cursor: pointer;}
 .jion_tab .post{display: none;}
-.jion_tab li:hover{background: url("../images/a18.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/a18.png*/ no-repeat;}
+.jion_tab li:hover{background: url("../images/a18.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/a18.png*/ no-repeat;}
 .jion_tab li:hover .post{display: block;}
 .jion_tab li:hover .icon{display: none;}
-.jion_tab li.on{background: url("../images/a18.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/a18.png*/ no-repeat;}
+.jion_tab li.on{background: url("../images/a18.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/a18.png*/ no-repeat;}
 .jion_tab li.on .post{display: block;}
 .jion_tab li.on .icon{display: none;}
 .jion_info{margin-left: 250px;margin-top: 260px;}
@@ -148,7 +148,7 @@ a:active{color:#0093ff;text-decoration:none;}
 .job_tab .on{color: #2eafbb;}
 .job_tab .intro{font-size: 14px;color: #333;line-height: 28px;margin-top: 16px;display: none;}
 
-.jion .send{font-size: 16px;color: #fff;display: inline-block;width: 160px;line-height: 160px;text-align: center;background: url("../images/a17.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/a17.png*/ no-repeat;position: absolute;right: 222px;top: 444px;}
+.jion .send{font-size: 16px;color: #fff;display: inline-block;width: 160px;line-height: 160px;text-align: center;background: url("../images/a17.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/a17.png*/ no-repeat;position: absolute;right: 222px;top: 444px;}
 .case_demo{position: absolute;bottom: -384px;}
 .case_demo li{float:left;width:384px;position:relative;padding:0px;}
 .case_info{position: absolute;bottom: 0;left:0;color: #fff;padding: 10px 20px;}
@@ -172,7 +172,7 @@ a:active{color:#0093ff;text-decoration:none;}
 .case_more a{display: inline-block;font-size: 14px;color: #2eafbb;line-height: 38px;border: 1px solid #2eafbb;display: inline-block;width: 1200px;}
 
 .crumbs{border-bottom:1px solid #f7f7f7;line-height:40px;color:#999999;font-family:"宋体";}
-.crumbs .icon{display:inline-block;width:14px;height:14px;background: url("../images/sprite.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/sprite.png*/ -80px 4px no-repeat;margin-right:4px;}
+.crumbs .icon{display:inline-block;width:14px;height:14px;background: url("../images/sprite.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/sprite.png*/ -80px 4px no-repeat;margin-right:4px;}
 .crumbs a{color:#999;}
 .crumbs a:hover{color:#666;}
 .crumbs .on{color:#666;}
@@ -185,8 +185,8 @@ a:active{color:#0093ff;text-decoration:none;}
 .case_sign{margin-top:30px;}
 .case_sign .info{line-height:26px;color:#999;margin-top:10px;}
 .case_sign .info a{color:#999;margin-top:10px;display:inline-block;text-decoration:underline;}
-.case_phone{background:url("../images/case_phone_bg.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/case_phone_bg.jpg*/ no-repeat center;width:100%;height:882px;padding-top:78px;margin-top:40px;}
-.case_phone_bg{background:url("../images/phone_bg2.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/phone_bg2.png*/ no-repeat center;width:405px;height:723px;margin:0px auto;position:relative;}
+.case_phone{background:url("../images/case_phone_bg.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/case_phone_bg.jpg*/ no-repeat center;width:100%;height:882px;padding-top:78px;margin-top:40px;}
+.case_phone_bg{background:url("../images/phone_bg2.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/phone_bg2.png*/ no-repeat center;width:405px;height:723px;margin:0px auto;position:relative;}
 .phone_slider{padding-top:69px;margin-left:28px;width:350px;height:560px;}
 .case_erweima{width:200px;margin:60px auto;border:1px solid #e3e3e3;}
 .case_erweima_btn{background-color:#2eafbb;text-align:center;padding:0px 10px;height:40px;line-height:40px;width:140px;margin:0px auto;}
@@ -204,9 +204,9 @@ a.btn_case_see{width:100%;height:32px;line-height:32px;color:#2eafbb;font-size:1
 .ser_project li:first-child{margin:0;}
 .blur{filter: blur(4px); -webkit-filter: blur(4px);  -moz-filter: blur(4px);-ms-filter: blur(4px);
       filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=4, MakeShadow=false); /* IE6~IE9 */}
-.blur_shade{background:url("../images/blur.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/blur.png*/ no-repeat;position: absolute;top:-600px;left: 0;width: 100%;height: 100%;text-align: center;z-index: 2;opacity: 0;}
+.blur_shade{background:url("../images/blur.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/blur.png*/ no-repeat;position: absolute;top:-600px;left: 0;width: 100%;height: 100%;text-align: center;z-index: 2;opacity: 0;}
 .blur_shade h4{font-size: 20px;color: #333;font-weight: normal;padding-top: 100px;}
-.blur_shade .text{background: url("../images/s13.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/s13.jpg*/ no-repeat center top ;font-size: 14px;color: #333;margin-top: 8px;padding: 8px 10px 0;}
+.blur_shade .text{background: url("../images/s13.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/s13.jpg*/ no-repeat center top ;font-size: 14px;color: #333;margin-top: 8px;padding: 8px 10px 0;}
 
 .ser_scope{background:#f7f7f7;padding-bottom:70px;}
 .picBox{width:1200px;margin:40px auto;}
@@ -249,7 +249,7 @@ a.btn_case_see{width:100%;height:32px;line-height:32px;color:#2eafbb;font-size:1
 .mobile_column li:first-child{margin-left: 0;}
 .mobile_column .title{font-size: 16px;color: #222;margin: 10px auto;line-height: 26px;}
 .mobile_column .intro{color: #999;line-height: 22px;width: 320px;margin: 0 auto;}
-.wechat{background: url("../images/m06.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/m06.jpg*/ no-repeat center top;position:relative;}
+.wechat{background: url("../images/m06.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/m06.jpg*/ no-repeat center top;position:relative;}
 .wechat dl{margin-left:140px;margin-top:300px;float:left;}
 .wechat dt{font-size: 36px;color: #333;margin-bottom: 30px;}
 .wechat dd{font-size: 16px;color: #333;line-height: 30px;}
@@ -258,7 +258,7 @@ a.btn_case_see{width:100%;height:32px;line-height:32px;color:#2eafbb;font-size:1
 .wechat_img img{position: absolute;right: 0;bottom: 0;}
 .wi_left{width: 460px;margin-left: 78px;position: relative;}
 .wi_left img{position: relative;}
-.wi_right{width: 540px;background: url("../images/m10.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/m10.jpg*/ no-repeat left top;padding-left: 115px;padding-top: 92px;}
+.wi_right{width: 540px;background: url("../images/m10.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/m10.jpg*/ no-repeat left top;padding-left: 115px;padding-top: 92px;}
 .wi_right h2{font-size: 36px;font-weight: normal;color: #333;margin-bottom: 30px;}
 .wi_right h3{font-size: 20px;font-weight: normal;color: #333;margin-bottom: 28px;}
 .wi_right .text{font-size: 16px;font-weight: normal;color: #333;line-height: 30px;}
@@ -312,7 +312,7 @@ a.btn_case_see{width:100%;height:32px;line-height:32px;color:#2eafbb;font-size:1
 .news_time .day{display: block;font-size: 70px;color: #fff;font-family: "Impact";text-align: right;}
 .news_time .year{display: block;color: #eee;text-align: right;line-height: 22px;}
 .news_time .author{display: block;color: #eee;text-align: right;line-height: 22px;}
-.news_time .type{display: block;text-align: right;background: url("../images/n01.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/n01.jpg*/ no-repeat right top;padding-top: 6px;margin-top: 4px;}
+.news_time .type{display: block;text-align: right;background: url("../images/n01.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/n01.jpg*/ no-repeat right top;padding-top: 6px;margin-top: 4px;}
 .news_time .type a{color: #fff;font-family: '宋体', Arial;}
 .news_cont{width: 980px;margin-right: 40px;}
 .news_cont h2{font-size: 20px;font-weight: normal;padding-top: 26px;}
@@ -364,7 +364,7 @@ a.btn_case_see{width:100%;height:32px;line-height:32px;color:#2eafbb;font-size:1
 .form_msg textarea{width:371px;border:1px solid #ccc;background:transparent;height:100px;color: #ccc;resize: none;*margin-left: 12px;overflow:auto;}
 .form_msg textarea:focus{color: #fff;border-color: #fff;outline: none;}
 .c_shade{position:absolute;top:0;left:0;background: #fff;opacity: 0.3;filter:alpha(opacity=30);width: 100%;height: 100%;}
-.connect{background: url("../images/cn01.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/cn01.jpg*/ no-repeat center;min-height: 500px;}
+.connect{background: url("../images/cn01.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/cn01.jpg*/ no-repeat center;min-height: 500px;}
 .connect_column{margin-top: 40px;}
 .connect_column li{float: left;text-align: center;width: 285px;height: 218px;margin-left: 20px;position: relative;padding-top: 42px;font-size: 16px;color: #333;line-height: 32px;}
 .connect_column li:first-child{margin-left: 0;}
@@ -375,14 +375,14 @@ a.btn_case_see{width:100%;height:32px;line-height:32px;color:#2eafbb;font-size:1
 .connect_column .s2{position:absolute;top:0;left:0;width:100%;height:100%;background: #58bec8;opacity: 0.2;filter:alpha(opacity=20);}
 .connect_column .s3{position:absolute;top:0;left:0;width:100%;height:100%;background: #9ac047;opacity: 0.2;filter:alpha(opacity=20);}
 .connect_column .s4{position:absolute;top:0;left:0;width:100%;height:100%;background: #31a0e1;opacity: 0.2;filter:alpha(opacity=20);}
-.connect_column .i1{display: inline-block;width: 36px;height: 46px; background: url("../images/sprite2.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/sprite2.png*/ no-repeat 0 0;}
-.connect_column .i2{display: inline-block;width: 42px;height: 46px; background: url("../images/sprite2.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/sprite2.png*/ no-repeat -38px 0;}
-.connect_column .i3{display: inline-block;width: 40px;height: 46px; background: url("../images/sprite2.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/sprite2.png*/ no-repeat -83px 0;}
-.connect_column .i4{display: inline-block;width: 40px;height: 46px; background: url("../images/sprite2.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/sprite2.png*/ no-repeat -125px 0;}
+.connect_column .i1{display: inline-block;width: 36px;height: 46px; background: url("../images/sprite2.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/sprite2.png*/ no-repeat 0 0;}
+.connect_column .i2{display: inline-block;width: 42px;height: 46px; background: url("../images/sprite2.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/sprite2.png*/ no-repeat -38px 0;}
+.connect_column .i3{display: inline-block;width: 40px;height: 46px; background: url("../images/sprite2.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/sprite2.png*/ no-repeat -83px 0;}
+.connect_column .i4{display: inline-block;width: 40px;height: 46px; background: url("../images/sprite2.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/sprite2.png*/ no-repeat -125px 0;}
 .connect_column a{ color: #333;}
 .connect_share{border-top: 2px solid #43bcc7;width: 120px;margin: 46px auto 0;text-align: center;padding-top: 46px;}
-.connect_share .sh1{display: inline-block;width: 40px;height: 40px;background: url("../images/sprite2.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/sprite2.png*/ 0 -48px;margin-right: 9px;}
-.connect_share .sh2{display: inline-block;width: 40px;height: 40px;background: url("../images/sprite2.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/sprite2.png*/ -41px -48px;}
+.connect_share .sh1{display: inline-block;width: 40px;height: 40px;background: url("../images/sprite2.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/sprite2.png*/ 0 -48px;margin-right: 9px;}
+.connect_share .sh2{display: inline-block;width: 40px;height: 40px;background: url("../images/sprite2.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/sprite2.png*/ -41px -48px;}
 .arrive{background: #f7f7f7;padding-bottom: 40px;margin-bottom:-40px;}
 .arrive_column_con{width:1150px;overflow:hidden;}
 .arrive_column{margin-left:50px;width:1300px;}
@@ -391,13 +391,13 @@ a.btn_case_see{width:100%;height:32px;line-height:32px;color:#2eafbb;font-size:1
 .arrive_column dd{font-size: 16px;color: #333;line-height: 32px;}
 .bus{font-size: 18px;color: #31a0e1;}
 .bus dt{margin-left: -50px;}
-.bus .icon{display: inline-block;width: 32px;height: 32px;background: url("../images/sprite2.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/sprite2.png*/ 0 -90px;vertical-align: middle;margin-right: 18px;}
+.bus .icon{display: inline-block;width: 32px;height: 32px;background: url("../images/sprite2.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/sprite2.png*/ 0 -90px;vertical-align: middle;margin-right: 18px;}
 .taxi{font-size: 18px;color: #de6764;}
 .taxi dt{margin-left: -50px;}
-.taxi .icon{display: inline-block;width: 32px;height: 34px;background: url("../images/sprite2.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/sprite2.png*/ -34px -90px;vertical-align: middle;margin-right: 18px;}
+.taxi .icon{display: inline-block;width: 32px;height: 34px;background: url("../images/sprite2.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/sprite2.png*/ -34px -90px;vertical-align: middle;margin-right: 18px;}
 .metro{font-size: 18px;color: #9ac047;}
 .metro dt{margin-left: -50px;}
-.metro .icon{display: inline-block;width: 34px;height: 34px;background: url("../images/sprite2.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/sprite2.png*/ -66px -90px;vertical-align: middle;margin-right: 16px;}
+.metro .icon{display: inline-block;width: 34px;height: 34px;background: url("../images/sprite2.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/sprite2.png*/ -66px -90px;vertical-align: middle;margin-right: 16px;}
 /*case*/
 .container{width:100%;overflow:hidden;*width:100%;overflow:hidden;}
 .da-thumbs {width:100%;position:relative;font-size:0;margin:0 auto;}
@@ -417,7 +417,7 @@ a.btn_case_see{width:100%;height:32px;line-height:32px;color:#2eafbb;font-size:1
 .da-thumbs li a:hover .title_shade{display:none;}
 
 /* case201601 */
-.case_t{text-align:center;padding-top:60px;background:url("../images/index201601/case_t_line.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/index201601/case_t_line.jpg*/ repeat-x 0 128px;}
+.case_t{text-align:center;padding-top:60px;background:url("../images/index201601/case_t_line.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/index201601/case_t_line.jpg*/ repeat-x 0 128px;}
 .case_t_title{color:#000000;font-size:20px;height:56px;line-height:56px;width:72px;text-align:center;background-color:#fff;margin:0px auto;}
 .case_t_line{width:42px;height:1px;line-height:1px;background-color:#6bc1ca;margin:0px auto;}
 .case_type201601{margin-top:60px;position:relative;z-index:1;}
@@ -439,19 +439,19 @@ a.btn_case_see{width:100%;height:32px;line-height:32px;color:#2eafbb;font-size:1
 
 .thumbnail{overflow:hidden;position:relative;display:inline-block;float:left;width:385px;margin-right:20px;margin-top:20px;}
 
-.thumbnail a.thumbnail_a:hover{cursor:url("../images/index201601/more.cur")/*tpa=http://www.szfangwei.cn/Public/Web/images/index201601/more.cur*/,crosshair;cursor:url("../images/index201601/cases_shi.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/index201601/cases_shi.png*/ 40 40, crosshair;}
+.thumbnail a.thumbnail_a:hover{cursor:url("../images/index201601/more.cur")/*tpa=http://www.datamapsoft.com/Public/Web/images/index201601/more.cur*/,crosshair;cursor:url("../images/index201601/cases_shi.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/index201601/cases_shi.png*/ 40 40, crosshair;}
 .projectinfo{position:absolute;z-index:2;top:-60px;left:0;width:100%;height:100%;background:rgb(126,127,115);background:rgba(126,127,115,.4);height:0\9;}
 .thumbnail .meta{width:100%;height:60px;line-height:60px;text-align:left;overflow:hidden;}
 .thumbnail .meta h4{font-size:18px;padding-left:10px;font-weight:normal;width:285px; }
 .thumbnail .meta h4 a{color:#000;}
 .thumbnail .meta .fr{width:80px;text-align:right;padding-right:10px;}
 .thumbnail .meta .fr a{display:inline-block;padding:0px 2px;padding-right:12px;width:20px;height:60px;}
-.thumbnail .meta .fr a.cases_a_pc{background:url("../images/index201601/cases_ico_pc_b.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/index201601/cases_ico_pc_b.png*/ no-repeat center;}
-.thumbnail .meta .fr a.cases_a_phone{background:url("../images/index201601/cases_ico_phone_b.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/index201601/cases_ico_phone_b.png*/ no-repeat center;}
+.thumbnail .meta .fr a.cases_a_pc{background:url("../images/index201601/cases_ico_pc_b.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/index201601/cases_ico_pc_b.png*/ no-repeat center;}
+.thumbnail .meta .fr a.cases_a_phone{background:url("../images/index201601/cases_ico_phone_b.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/index201601/cases_ico_phone_b.png*/ no-repeat center;}
 .thumbnail:hover .meta{background-color:#2eafbb;}
 .thumbnail:hover .meta h4 a{color:#fff;}
-.thumbnail:hover .meta .fr a.cases_a_pc{background:url("../images/index201601/cases_ico_pc_w.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/index201601/cases_ico_pc_w.png*/ no-repeat center;}
-.thumbnail:hover .meta .fr a.cases_a_phone{background:url("../images/index201601/cases_ico_phone_w.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/index201601/cases_ico_phone_w.png*/ no-repeat center;}
+.thumbnail:hover .meta .fr a.cases_a_pc{background:url("../images/index201601/cases_ico_pc_w.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/index201601/cases_ico_pc_w.png*/ no-repeat center;}
+.thumbnail:hover .meta .fr a.cases_a_phone{background:url("../images/index201601/cases_ico_phone_w.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/index201601/cases_ico_phone_w.png*/ no-repeat center;}
 
 /* contact_pay */
 .pay_t{margin:48px auto 30px auto;width:223px;}
@@ -550,42 +550,42 @@ a.btn_case_see{width:100%;height:32px;line-height:32px;color:#2eafbb;font-size:1
 .wd_1_left{position:absolute;bottom:-300px;left:-1000px;}
 .wd_1_right{position:absolute;top:-400px;right:-1000px;}
 
-.webdesign2{ background:url("../images/webdesign2.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/webdesign2.jpg*/ no-repeat center; height:100%; width:100%;position:relative;}
-.webdesign3{ background:url("../images/webdesign3.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/webdesign3.jpg*/ no-repeat center; height:100%; width:100%;position:relative;}
-.webdesign4{ background:url("../images/webdesign4.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/webdesign4.jpg*/ no-repeat center; height:100%; width:100%;position:relative;}
-.webdesign5{ background:url("../images/webdesign5.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/webdesign5.jpg*/ no-repeat center; height:100%; width:100%;position:relative;}
-.webdesign6{ background:url("../images/webdesign6.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/webdesign6.jpg*/ no-repeat center; height:100%; width:100%;position:relative;}
-.webdesign7{ background:url("../images/webdesign7.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/webdesign7.jpg*/ no-repeat center; height:100%; width:100%;position:relative;}
+.webdesign2{ background:url("../images/webdesign2.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/webdesign2.jpg*/ no-repeat center; height:100%; width:100%;position:relative;}
+.webdesign3{ background:url("../images/webdesign3.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/webdesign3.jpg*/ no-repeat center; height:100%; width:100%;position:relative;}
+.webdesign4{ background:url("../images/webdesign4.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/webdesign4.jpg*/ no-repeat center; height:100%; width:100%;position:relative;}
+.webdesign5{ background:url("../images/webdesign5.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/webdesign5.jpg*/ no-repeat center; height:100%; width:100%;position:relative;}
+.webdesign6{ background:url("../images/webdesign6.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/webdesign6.jpg*/ no-repeat center; height:100%; width:100%;position:relative;}
+.webdesign7{ background:url("../images/webdesign7.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/webdesign7.jpg*/ no-repeat center; height:100%; width:100%;position:relative;}
 
 /* right contact */
 .right_contact{position:fixed;bottom:60px;right:0px;width:40px;display:none;z-index:100000;}
-.right_contact .r_qq{background:url("../images/contact_qq.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/contact_qq.png*/ no-repeat center #ececec;width:40px;height:40px;cursor:pointer;}
-.right_contact .r_tel{background:url("../images/contact_tel.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/contact_tel.png*/ no-repeat center #ececec;width:40px;height:40px;cursor:pointer;}
-.right_contact .r_close{background:url("../images/contact_close.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/contact_close.png*/ no-repeat center #f9f9f9;width:40px;height:40px;cursor:pointer;}
-.right_contact .r_close:hover{background:url("../images/contact_close2.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/contact_close2.png*/ no-repeat center #43bcc7;cursor:pointer;}
-.right_contact .r_show{background:url("../images/contact_h.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/contact_h.jpg*/ no-repeat center;width:40px;height:40px;cursor:pointer;}
+.right_contact .r_qq{background:url("../images/contact_qq.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/contact_qq.png*/ no-repeat center #ececec;width:40px;height:40px;cursor:pointer;}
+.right_contact .r_tel{background:url("../images/contact_tel.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/contact_tel.png*/ no-repeat center #ececec;width:40px;height:40px;cursor:pointer;}
+.right_contact .r_close{background:url("../images/contact_close.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/contact_close.png*/ no-repeat center #f9f9f9;width:40px;height:40px;cursor:pointer;}
+.right_contact .r_close:hover{background:url("../images/contact_close2.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/contact_close2.png*/ no-repeat center #43bcc7;cursor:pointer;}
+.right_contact .r_show{background:url("../images/contact_h.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/contact_h.jpg*/ no-repeat center;width:40px;height:40px;cursor:pointer;}
 .right_contact .right_hide{display:none;}
-.right_contact .sel .r_qq{background:url("../images/contact_qq2.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/contact_qq2.png*/ no-repeat center #43bcc7;}
-.right_contact .sel .r_tel{background:url("../images/contact_tel2.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/contact_tel2.png*/ no-repeat center #43bcc7;}
+.right_contact .sel .r_qq{background:url("../images/contact_qq2.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/contact_qq2.png*/ no-repeat center #43bcc7;}
+.right_contact .sel .r_tel{background:url("../images/contact_tel2.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/contact_tel2.png*/ no-repeat center #43bcc7;}
 .right_contact .r_sub{display:none;position:absolute;right:40px;top:0px;background-color:#43bcc7;padding:20px;line-height:34px;z-index:100000;}
 .right_contact .r_sub_tel{width:110px;top:40px;}
 .right_contact .r_sub_tel span{display:block;font-size:14px;color:#fff;font-family:"微软雅黑";}
-.right_contact .r_top{background:url("../images/contact_top.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/contact_top.png*/ no-repeat center #f9f9f9;width:40px;height:40px;cursor:pointer;display:none;}
-.right_contact .r_top:hover{background:url("../images/contact_top2.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/contact_top2.png*/ no-repeat center #43bcc7;}
+.right_contact .r_top{background:url("../images/contact_top.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/contact_top.png*/ no-repeat center #f9f9f9;width:40px;height:40px;cursor:pointer;display:none;}
+.right_contact .r_top:hover{background:url("../images/contact_top2.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/contact_top2.png*/ no-repeat center #43bcc7;}
 
 /* right_contact_201601 */
-.right_contact_201601{position:fixed;bottom:300px;right:0px;width:60px;height:240px;z-index:100000;background:url("../images/index201601/right_bg.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/index201601/right_bg.png*/ no-repeat;}
+.right_contact_201601{position:fixed;bottom:300px;right:0px;width:60px;height:240px;z-index:100000;background:url("../images/index201601/right_bg.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/index201601/right_bg.png*/ no-repeat;}
 .right_contact_201601 li{position:relative;cursor:pointer;width:60px;height:60px;}
 .right_contact_201601 li .hover{display:none;}
-.right_contact_201601 .li_top{width:60px;height:60px;background:url("../images/index201601/right_1.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/index201601/right_1.png*/ no-repeat;}
-.right_contact_201601 .li_tel{width:238px;height:60px;background:url("../images/index201601/right_2_h.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/index201601/right_2_h.png*/ no-repeat;-webkit-transition:all 0.5s;-moz-transition:all 0.5s;-o-transition:all 0.5s;transition:all 0.5s;}
+.right_contact_201601 .li_top{width:60px;height:60px;background:url("../images/index201601/right_1.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/index201601/right_1.png*/ no-repeat;}
+.right_contact_201601 .li_tel{width:238px;height:60px;background:url("../images/index201601/right_2_h.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/index201601/right_2_h.png*/ no-repeat;-webkit-transition:all 0.5s;-moz-transition:all 0.5s;-o-transition:all 0.5s;transition:all 0.5s;}
 .right_contact_201601 .li_tel .text{color:#fff;font-size:16px;line-height:24px;padding-left:60px;padding-top:6px;}
-.right_contact_201601 .li_qq{width:238px;height:60px;background:url("../images/index201601/right_3_h.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/index201601/right_3_h.png*/ no-repeat;-webkit-transition:all 0.5s;-moz-transition:all 0.5s;-o-transition:all 0.5s;transition:all 0.5s;}
+.right_contact_201601 .li_qq{width:238px;height:60px;background:url("../images/index201601/right_3_h.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/index201601/right_3_h.png*/ no-repeat;-webkit-transition:all 0.5s;-moz-transition:all 0.5s;-o-transition:all 0.5s;transition:all 0.5s;}
 .right_contact_201601 .li_qq .text{color:#fff;font-size:16px;line-height:24px;padding-left:60px;padding-top:6px;}
-.right_contact_201601 .li_close{width:60px;height:60px;background:url("../images/index201601/right_4.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/index201601/right_4.png*/ no-repeat;}
+.right_contact_201601 .li_close{width:60px;height:60px;background:url("../images/index201601/right_4.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/index201601/right_4.png*/ no-repeat;}
 
-.right_contact_201601 .li_tel:hover{margin-left:-178px;width:238px;height:60px;background:url("../images/index201601/right_2_h.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/index201601/right_2_h.png*/ no-repeat;}
-.right_contact_201601 .li_qq:hover{margin-left:-178px;width:238px;height:60px;background:url("../images/index201601/right_3_h.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/index201601/right_3_h.png*/ no-repeat;}
+.right_contact_201601 .li_tel:hover{margin-left:-178px;width:238px;height:60px;background:url("../images/index201601/right_2_h.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/index201601/right_2_h.png*/ no-repeat;}
+.right_contact_201601 .li_qq:hover{margin-left:-178px;width:238px;height:60px;background:url("../images/index201601/right_3_h.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/index201601/right_3_h.png*/ no-repeat;}
 .right_contact_201601 li:hover .hover{display:block;}
 
 /* right nav */
@@ -599,7 +599,7 @@ a.btn_case_see{width:100%;height:32px;line-height:32px;color:#2eafbb;font-size:1
 #fp-nav ul li a span,.fp-slidesNav ul li a span{top:2px;left:2px;width:8px;height:8px;border:1px solid #ccc;background:rgba(0, 0, 0, 0);border-radius:50%;position:absolute;z-index:1;}
 
 /* 员工天地 */
-.news_list_yuangong{width:100%;background:url("../images/news_yuangong_bg.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/news_yuangong_bg.jpg*/ no-repeat center top;height:800px;margin-top:40px;}
+.news_list_yuangong{width:100%;background:url("../images/news_yuangong_bg.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/news_yuangong_bg.jpg*/ no-repeat center top;height:800px;margin-top:40px;}
 .news_list_yuangong ul{width:1200px;margin:0px auto;}
 .news_list_yuangong li{width:200px;height:200px;float:left;position:relative;cursor:pointer;overflow:hidden;}
 .news_list_yuangong li .li_caption{position:absolute;left:0;display:none;width:200px;height:200px;overflow:hidden;z-index:2;}
@@ -613,9 +613,9 @@ a.btn_case_see{width:100%;height:32px;line-height:32px;color:#2eafbb;font-size:1
 /* kehu info */
 .kehu_info_logo{text-align:center;margin:40px auto;}
 .kehu_spec{font-size:14px;color:#333;line-height:1.8;width:70%;text-align:center;margin:40px auto;}
-.kehu_text_1{background:url("../images/index201601/kehu_text1.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/index201601/kehu_text1.jpg*/ no-repeat top center;height:23px;width:100%;}
-.kehu_text_2{background:url("../images/index201601/kehu_text2.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/index201601/kehu_text2.jpg*/ no-repeat top center;height:26px;width:100%;}
-.kehu_text_3{background:url("../images/index201601/kehu_text3.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/index201601/kehu_text3.jpg*/ no-repeat top center;height:25px;width:100%;}
+.kehu_text_1{background:url("../images/index201601/kehu_text1.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/index201601/kehu_text1.jpg*/ no-repeat top center;height:23px;width:100%;}
+.kehu_text_2{background:url("../images/index201601/kehu_text2.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/index201601/kehu_text2.jpg*/ no-repeat top center;height:26px;width:100%;}
+.kehu_text_3{background:url("../images/index201601/kehu_text3.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/index201601/kehu_text3.jpg*/ no-repeat top center;height:25px;width:100%;}
 .kehu_info_list{margin:30px auto;}
 .kehu_info_list dl{float:left;width:300px;text-align:center;margin:30px 0;}
 .kehu_info_list dt{padding-bottom:18px;}
@@ -625,7 +625,7 @@ a.btn_case_see{width:100%;height:32px;line-height:32px;color:#2eafbb;font-size:1
 .kehu_piclist li{border:5px solid #ddd;width:290px;position:relative;z-index:1;cursor:pointer;float:left;margin:30px 50px;}
 .kehu_piclist li .preview{display:none;}
 .kehu_piclist li:hover{ alpha(opacity=70);-moz-opacity:0.7;opacity:0.7;}
-.kehu_piclist li:hover .preview{display:block;background:url("../images/index201601/kehu_ico_fangda.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/index201601/kehu_ico_fangda.png*/ no-repeat center center; width:50px;height:50px;position:absolute;top:36%;left:120px;}
+.kehu_piclist li:hover .preview{display:block;background:url("../images/index201601/kehu_ico_fangda.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/index201601/kehu_ico_fangda.png*/ no-repeat center center; width:50px;height:50px;position:absolute;top:36%;left:120px;}
 
 /* Easy Slider */
 /* 成功案例 */
@@ -661,10 +661,10 @@ a.btn_case_see{width:100%;height:32px;line-height:32px;color:#2eafbb;font-size:1
     position:relative;
     width:43px;
     height:85px;
-    background:url("../images/btn_prev.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/btn_prev.png*/ no-repeat 0 0;	
+    background:url("../images/btn_prev.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/btn_prev.png*/ no-repeat 0 0;	
 }	
 #nextBtn a, #slider1next a{ 
-    background:url("../images/btn_next.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/btn_next.png*/ no-repeat 0 0;	
+    background:url("../images/btn_next.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/btn_next.png*/ no-repeat 0 0;	
 }	
 
 /* numeric controls */	
@@ -691,10 +691,10 @@ ol#controls li a{
     padding:0px;
     text-decoration:none;
     font-size:0px;
-    background:url("../images/case_ico.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/case_ico.png*/ no-repeat 0px -12px;
+    background:url("../images/case_ico.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/case_ico.png*/ no-repeat 0px -12px;
 }
 ol#controls li.current a{
-    background:url("../images/case_ico.png")/*tpa=http://www.szfangwei.cn/Public/Web/images/case_ico.png*/ no-repeat 0px 0px;
+    background:url("../images/case_ico.png")/*tpa=http://www.datamapsoft.com/Public/Web/images/case_ico.png*/ no-repeat 0px 0px;
 }
 ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
 
@@ -750,10 +750,10 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
     .bus{padding-left:10px;}
 
     /* service */
-    .inside_banner_service{background: url("../images/service_banner.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/service_banner.jpg*/ no-repeat -600px 0px;height: 400px;}
-    .inside_banner_mobile{background: url("../images/m_banner.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/m_banner.jpg*/ no-repeat -200px 0px;height: 400px;}
-    .inside_banner_solution{background: url("../images/sl_banner.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/sl_banner.jpg*/ no-repeat -200px 0px;height: 400px;}
-    .inside_banner_news{background: url("../images/n_banner.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/n_banner.jpg*/ no-repeat -600px 0px;height: 400px;}
+    .inside_banner_service{background: url("../images/service_banner.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/service_banner.jpg*/ no-repeat -600px 0px;height: 400px;}
+    .inside_banner_mobile{background: url("../images/m_banner.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/m_banner.jpg*/ no-repeat -200px 0px;height: 400px;}
+    .inside_banner_solution{background: url("../images/sl_banner.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/sl_banner.jpg*/ no-repeat -200px 0px;height: 400px;}
+    .inside_banner_news{background: url("../images/n_banner.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/n_banner.jpg*/ no-repeat -600px 0px;height: 400px;}
     .ser_project ul{width:750px;}
     .ser_project li{margin-left:40px;margin-right:60px;margin-top:40px;}
     .ser_project li:first-child{margin:40px 60px 0px 40px;}
@@ -783,7 +783,7 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
     .news_tab{width:960px;overflow:hidden;}
     .news_list{width:960px;}
     .news_cont{width:780px;margin-right:20px;}
-    .news_list_yuangong{width:100%;background:url("../images/news_yuangong_bg.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/news_yuangong_bg.jpg*/ no-repeat center top  #95c9bc;height:1200px;margin-top:40px;}
+    .news_list_yuangong{width:100%;background:url("../images/news_yuangong_bg.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/news_yuangong_bg.jpg*/ no-repeat center top  #95c9bc;height:1200px;margin-top:40px;}
     .news_list_yuangong ul{width:800px;margin:0px auto;}
     /* contact_pay */
     .pay_list{width:960px;}
@@ -812,7 +812,7 @@ ol#controls li a:focus, #prevBtn a:focus, #nextBtn a:focus{outline:none;}
     .news_tab{width:960px;overflow:hidden;}
     .news_list{width:960px;}
     .news_cont{width:780px;margin-right:20px;}
-    .news_list_yuangong{width:100%;background:url("../images/news_yuangong_bg.jpg")/*tpa=http://www.szfangwei.cn/Public/Web/images/news_yuangong_bg.jpg*/ no-repeat center top  #95c9bc;height:1200px;margin-top:40px;}
+    .news_list_yuangong{width:100%;background:url("../images/news_yuangong_bg.jpg")/*tpa=http://www.datamapsoft.com/Public/Web/images/news_yuangong_bg.jpg*/ no-repeat center top  #95c9bc;height:1200px;margin-top:40px;}
     .news_list_yuangong ul{width:800px;margin:0px auto;}
     /* contact_pay */
     .pay_list{width:960px;}

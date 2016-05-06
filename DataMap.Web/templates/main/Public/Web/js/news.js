@@ -1,5 +1,5 @@
 /**
- * Created by www.szfangwei.cn on 15-04-17.
+ * Created by www.datamapsoft.com on 15-04-17.
  */
 $(document).ready(function(){
 //    news_list
@@ -41,6 +41,6 @@ $(document).ready(function(){
 //search
 function search_news() {
     var k = $("#k").val();
-    document.location = "../../../News/search-k=.htm"/*tpa=http://www.szfangwei.cn/News/search?k=*/ + encodeURI(k);
+    document.location = "../../../News/search-k=.htm"/*tpa=http://www.datamapsoft.com/News/search?k=*/ + encodeURI(k);
 }
 

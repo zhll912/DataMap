@@ -28,14 +28,17 @@
                     <%set DataTable footfocuscases=get_article_list("cases", 0, 2, "status=0 and is_slide=1")%>
                     <%foreach(DataRow dr in footfocuscases.Rows)%>
                     <li>
+                        <a href="<%linkurl("cases_show",{dr[id]})%>" tppabs="#" target="_blank">
+                            <img width="80" height="52" alt="{dr[title]}" src="{dr[img_url]}"> 
+                        </a>
                         <h5>
                             <a href="<%linkurl("cases_show",{dr[id]})%>" tppabs="#" target="_blank">
-                                <%cutstring({dr[title]},28)%>
+                                <%cutstring({dr[title]},20)%>
                             </a>
                         </h5>
                         <p class="text">
                             <a href="<%linkurl("cases_show",{dr[id]})%>" tppabs="#" target="_blank">
-                                <%cutstring({dr[zhaiyao]},28)%>
+                                <%cutstring({dr[zhaiyao]},20)%>
                             </a>
                         </p>
                     </li>

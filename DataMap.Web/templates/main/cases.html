@@ -8,8 +8,8 @@
     <title>
       成功案例-山西戴特数图网络科技有限公司
     </title>
-    <meta name="keywords" content="" />
-    <meta name="description" content="山西戴特数图网络科技有限公司" />
+      <meta name="keywords" content="临汾网站建设,临汾网站制作，临汾网站定制，临汾网页设计" />
+      <meta name="description" content="临汾网站建设,临汾网站制作，临汾网站定制，临汾网页设计" />
     <meta name="mobile-agent" content="format=html5;url=http://www.datamapsoft.com"
     />
     <script type="text/javascript">
@@ -68,7 +68,7 @@
           <%set DataTable categoryList=get_category_child_list(channel,0)%>
           <%foreach(DataRow cdr in categoryList.Rows)%>
         <li>
-            <a href="<%linkurl("cases_list",{cdr[id]})%>" tppabs="#">
+            <a href="<%linkurl("cases",{cdr[id]})%>" tppabs="#">
                 {cdr[title]}
             </a>
         </li>
@@ -78,7 +78,7 @@
         <div class="case_seek">
           <input type="text" value="" name="k" id="k" class="text" />
           <img src="<%templateskin%>/Public/Web/images/c03.jpg" tppabs="<%templateskin%>/Public/Web/images/c03.jpg"
-          onClick="search_cases()" alt="搜索网站案例" width="16" height="16" />
+          onClick="search_cases()" alt="搜索案例" width="16" height="16" />
         </div>
       </div>
     </div>

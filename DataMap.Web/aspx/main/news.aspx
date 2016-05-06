@@ -9,8 +9,8 @@ override protected void OnInit(EventArgs e)
 {
 
 	/* 
-		This page was created by DataMap Template Engine at 2016/5/5 16:52:29.
-		本页面代码由DataMap模板引擎生成于 2016/5/5 16:52:29. 
+		This page was created by DataMap Template Engine at 2016/5/6 11:39:02.
+		本页面代码由DataMap模板引擎生成于 2016/5/6 11:39:02. 
 	*/
 
 	base.OnInit(e);
@@ -67,17 +67,20 @@ override protected void OnInit(EventArgs e)
 	foreach(DataRow dr in footfocuscases.Rows)
 	{
 
-	templateBuilder.Append("\r\n                    <li>\r\n                        <h5>\r\n                            <a href=\"");
+	templateBuilder.Append("\r\n                    <li>\r\n                        <a href=\"");
+	templateBuilder.Append(linkurl("cases_show",Utils.ObjectToStr(dr["id"])));
+
+	templateBuilder.Append("\" tppabs=\"#\" target=\"_blank\">\r\n                            <img width=\"80\" height=\"52\" alt=\"" + Utils.ObjectToStr(dr["title"]) + "\" src=\"" + Utils.ObjectToStr(dr["img_url"]) + "\"> \r\n                        </a>\r\n                        <h5>\r\n                            <a href=\"");
 	templateBuilder.Append(linkurl("cases_show",Utils.ObjectToStr(dr["id"])));
 
 	templateBuilder.Append("\" tppabs=\"#\" target=\"_blank\">\r\n                                ");
-	templateBuilder.Append(Utils.DropHTML(Utils.ObjectToStr(dr["title"]),28));
+	templateBuilder.Append(Utils.DropHTML(Utils.ObjectToStr(dr["title"]),20));
 
 	templateBuilder.Append("\r\n                            </a>\r\n                        </h5>\r\n                        <p class=\"text\">\r\n                            <a href=\"");
 	templateBuilder.Append(linkurl("cases_show",Utils.ObjectToStr(dr["id"])));
 
 	templateBuilder.Append("\" tppabs=\"#\" target=\"_blank\">\r\n                                ");
-	templateBuilder.Append(Utils.DropHTML(Utils.ObjectToStr(dr["zhaiyao"]),28));
+	templateBuilder.Append(Utils.DropHTML(Utils.ObjectToStr(dr["zhaiyao"]),20));
 
 	templateBuilder.Append("\r\n                            </a>\r\n                        </p>\r\n                    </li>\r\n                    ");
 	}	//end for if

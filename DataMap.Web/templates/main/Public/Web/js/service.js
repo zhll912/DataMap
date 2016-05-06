@@ -440,7 +440,7 @@ jQuery.extend( jQuery.easing,
 	easeInOutBounce: function (x, t, b, c, d) {if (t < d/2) return jQuery.easing.easeInBounce (x, t*2, 0, c, d) * .5 + b;return jQuery.easing.easeOutBounce (x, t*2-d, 0, c, d) * .5 + c*.5 + b;}
 });
 /**
- * Created by www.szfangwei.cn on 15-04-17.
+ * Created by www.datamapsoft.com on 15-04-17.
  */
 $(document).ready(function(){
     $(".ser_project li").hover(function(){

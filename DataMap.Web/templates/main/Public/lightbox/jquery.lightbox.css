@@ -17,19 +17,19 @@
 	Z-INDEX: 7000; POSITION: absolute; WIDTH: 12%; HEIGHT: 17px
 }
 .jquery-lightbox-border-top-left {
-	BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.szfangwei.cn/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat 0px 0px; TOP: 0px; LEFT: 0px
+	BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.datamapsoft.com/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat 0px 0px; TOP: 0px; LEFT: 0px
 }
 .jquery-lightbox-border-top-right {
-	BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.szfangwei.cn/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat right 0px; TOP: 0px; RIGHT: 0px
+	BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.datamapsoft.com/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat right 0px; TOP: 0px; RIGHT: 0px
 }
 .jquery-lightbox-border-top-middle {
 	Z-INDEX: 7000; POSITION: absolute; WIDTH: 78%; BACKGROUND: #2b2b2b; HEIGHT: 7px; OVERFLOW: hidden; TOP: 0px; LEFT: 12%
 }
 .jquery-lightbox-border-bottom-left {
-	BOTTOM: 0px; BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.szfangwei.cn/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat 0px bottom; LEFT: 0px
+	BOTTOM: 0px; BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.datamapsoft.com/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat 0px bottom; LEFT: 0px
 }
 .jquery-lightbox-border-bottom-right {
-	BOTTOM: 0px; BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.szfangwei.cn/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat right bottom; RIGHT: 0px
+	BOTTOM: 0px; BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.datamapsoft.com/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat right bottom; RIGHT: 0px
 }
 .jquery-lightbox-border-bottom-middle {
 	Z-INDEX: 7000; POSITION: absolute; WIDTH: 78%; BOTTOM: 0px; BACKGROUND: #2b2b2b; HEIGHT: 7px; OVERFLOW: hidden; LEFT: 12%
@@ -65,16 +65,16 @@
 	OVERFLOW: auto
 }
 .jquery-lightbox-loading {
-	BACKGROUND: url("images/loading.gif")/*tpa=http://www.szfangwei.cn/Public/lightbox/images/loading.gif*/ #ffffff no-repeat center center
+	BACKGROUND: url("images/loading.gif")/*tpa=http://www.datamapsoft.com/Public/lightbox/images/loading.gif*/ #ffffff no-repeat center center
 }
 .jquery-lightbox-mode-html .jquery-lightbox-loading {
-	BACKGROUND: url("images/loading.gif")/*tpa=http://www.szfangwei.cn/Public/lightbox/images/loading.gif*/ #ffffff no-repeat center center
+	BACKGROUND: url("images/loading.gif")/*tpa=http://www.datamapsoft.com/Public/lightbox/images/loading.gif*/ #ffffff no-repeat center center
 }
 .jquery-lightbox-button-close {
-	POSITION: absolute; WIDTH: 29px; BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.szfangwei.cn/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -190px -115px; HEIGHT: 29px; TOP: 12px; RIGHT: -26px
+	POSITION: absolute; WIDTH: 29px; BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.datamapsoft.com/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -190px -115px; HEIGHT: 29px; TOP: 12px; RIGHT: -26px
 }
 .jquery-lightbox-button-close:hover {
-	BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.szfangwei.cn/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -220px -115px
+	BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.datamapsoft.com/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -220px -115px
 }
 .jquery-lightbox-button-close SPAN {
 	DISPLAY: none
@@ -95,34 +95,34 @@
 	WIDTH: 5px; DISPLAY: inline; FLOAT: left; HEIGHT: 39px
 }
 .jquery-lightbox-buttons .jquery-lightbox-buttons-init {
-	MARGIN: 7px 0px 0px 7px; BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.szfangwei.cn/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -151px -153px
+	MARGIN: 7px 0px 0px 7px; BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.datamapsoft.com/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -151px -153px
 }
 .jquery-lightbox-buttons .jquery-lightbox-buttons-end {
-	MARGIN: 7px 0px 0px; BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.szfangwei.cn/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -244px -153px
+	MARGIN: 7px 0px 0px; BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.datamapsoft.com/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -244px -153px
 }
 .jquery-lightbox-buttons .jquery-lightbox-button-left {
-	MARGIN: 7px 0px 0px; WIDTH: 24px; DISPLAY: inline; BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.szfangwei.cn/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -156px -153px; FLOAT: left; HEIGHT: 39px
+	MARGIN: 7px 0px 0px; WIDTH: 24px; DISPLAY: inline; BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.datamapsoft.com/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -156px -153px; FLOAT: left; HEIGHT: 39px
 }
 .jquery-lightbox-buttons .jquery-lightbox-button-left:hover {
-	BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.szfangwei.cn/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -156px -194px
+	BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.datamapsoft.com/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -156px -194px
 }
 .jquery-lightbox-buttons .jquery-lightbox-button-right {
-	MARGIN: 7px 0px 0px; WIDTH: 24px; DISPLAY: inline; BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.szfangwei.cn/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -220px -153px; FLOAT: left; HEIGHT: 39px
+	MARGIN: 7px 0px 0px; WIDTH: 24px; DISPLAY: inline; BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.datamapsoft.com/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -220px -153px; FLOAT: left; HEIGHT: 39px
 }
 .jquery-lightbox-buttons .jquery-lightbox-button-right:hover {
-	BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.szfangwei.cn/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -220px -194px
+	BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.datamapsoft.com/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -220px -194px
 }
 .jquery-lightbox-buttons .jquery-lightbox-button-max {
-	MARGIN: 7px 0px 0px; WIDTH: 36px; DISPLAY: inline; BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.szfangwei.cn/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -182px -153px; FLOAT: left; HEIGHT: 39px
+	MARGIN: 7px 0px 0px; WIDTH: 36px; DISPLAY: inline; BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.datamapsoft.com/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -182px -153px; FLOAT: left; HEIGHT: 39px
 }
 .jquery-lightbox-buttons .jquery-lightbox-button-max:hover {
-	BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.szfangwei.cn/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -182px -194px
+	BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.datamapsoft.com/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -182px -194px
 }
 .jquery-lightbox-buttons .jquery-lightbox-button-min {
-	MARGIN: 7px 0px 0px; WIDTH: 36px; DISPLAY: inline; BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.szfangwei.cn/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -162px -235px; FLOAT: left; HEIGHT: 39px
+	MARGIN: 7px 0px 0px; WIDTH: 36px; DISPLAY: inline; BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.datamapsoft.com/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -162px -235px; FLOAT: left; HEIGHT: 39px
 }
 .jquery-lightbox-buttons .jquery-lightbox-button-min:hover {
-	BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.szfangwei.cn/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -207px -235px
+	BACKGROUND: url("images/jquery-lightbox-theme.png")/*tpa=http://www.datamapsoft.com/Public/lightbox/images/jquery-lightbox-theme.png*/ no-repeat -207px -235px
 }
 .jquery-lightbox-buttons-custom {
 	LINE-HEIGHT: 39px; MARGIN: 7px 0px 0px; DISPLAY: inline; BACKGROUND: #2b2b2b; FLOAT: left; HEIGHT: 39px; FONT-SIZE: 10px

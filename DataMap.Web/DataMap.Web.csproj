@@ -452,6 +452,7 @@
     </Content>
     <Content Include="templates\main\cases_list.html" />
     <Content Include="templates\main\cases.html" />
+    <Content Include="templates\main\cases_show.html" />
     <Content Include="templates\main\contact.html" />
     <Content Include="templates\main\favicon.ico" />
     <Content Include="templates\main\index.html" />
