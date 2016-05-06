@@ -52,110 +52,35 @@
         </div>
       </div>
     </div>
-    <div class="news_tab">
+      <!--以下js用于新闻分类的颜色背景-->
+
+      <div class="news_tab">
       <ul class="fix">
+          <%set DataTable categoryList=get_category_child_list(channel,0)%>
+          <%foreach(DataRow dr in categoryList.Rows)%>
         <li class="cyan">
-          <a href="#" tppabs="#">
-            <h2>
-              最新签约
-            </h2>
-            <p class="eg">
-              Latest Signing
-            </p>
-          </a>
+            <a href="<%linkurl("news_show",{dr[id]})%>" tppabs="#">
+                <h2>
+                    {dr[title]}
+                </h2>
+                <p class="eg">
+                    {dr[title]}
+                </p>
+            </a>
         </li>
-        <li class="purple">
-          <a href="#" tppabs="#">
-            <h2>
-              公司新闻
-            </h2>
-            <p class="eg">
-              Company News
-            </p>
-          </a>
-        </li>
-        <li class="green">
-          <a href="#" tppabs="#">
-            <h2>
-              常见问题
-            </h2>
-            <p class="eg">
-              Common Problems
-            </p>
-          </a>
-        </li>
-        <li class="red">
-          <a href="#" tppabs="#">
-            <h2>
-              网站建设
-            </h2>
-            <p class="eg">
-              Website Construction
-            </p>
-          </a>
-        </li>
-        <li class="blue">
-          <a href="#" tppabs="#">
-            <h2>
-              媒体报道
-            </h2>
-            <p class="eg">
-              Media Reports
-            </p>
-          </a>
-        </li>
-        <li class="red">
-          <a href="#" tppabs="#">
-            <h2>
-              手机网站
-            </h2>
-            <p class="eg">
-              Mobile Website
-            </p>
-          </a>
-        </li>
-        <li class="blue">
-          <a href="#" tppabs="#">
-            <h2>
-              员工天地
-            </h2>
-            <p class="eg">
-              Employee’s world
-            </p>
-          </a>
-        </li>
-        <li class="cyan">
-          <a href="#" tppabs="#">
-            <h2>
-              网站优化
-            </h2>
-            <p class="eg">
-              Website Optimization
-            </p>
-          </a>
-        </li>
-        <li class="purple">
-          <a href="#" tppabs="#">
-            <h2>
-              网站设计
-            </h2>
-            <p class="eg">
-              Website Design
-            </p>
-          </a>
-        </li>
-        <li class="green">
-          <a href="#" tppabs="#">
-            <h2>
-              主机域名
-            </h2>
-            <p class="eg">
-              Host/Domain
-            </p>
-          </a>
-        </li>
+          <%/foreach%>
+
       </ul>
     </div>
+      <script type="text/javascript">
+          var colorArray = new Array("cyan", "purple", "green", "red", "blue");
+          var adocument = document.getElementsByClassName("fix").getElementsByTagName("li").length;
+          for (var i = 0; i < adocument.length; i++) {
+              var s = Math.ceil(Math.random() * 5);
+              alert(s);
+              adocument[i].className = colorArray[s];
+          }
+      </script>
     <div class="news_list">
       <ul>
         <li>
