@@ -2,7 +2,7 @@
  * Created by www.datamapsoft.com on 15-04-17.
  */
 $(document).ready(function(){
-//    news_list
+    //    news_list
     var $line_top='<span class="line line_top"></span>';
     var $line_bottom='<span class="line line_bottom"></span>';
     var $line_left='<span class="line line_left"></span>';
@@ -28,7 +28,13 @@ $(document).ready(function(){
     $(".news_seek").click(function(e){
         e.stopPropagation();
     });
-
+    var colorArray = new Array("cyan", "purple", "green", "red", "blue");
+    //设置新闻子类背景颜色
+    $(".fix li").each(
+        function(){
+            var s = Math.ceil(Math.random() * 4);
+            $(this).addClass(colorArray[s]);
+        });
     //enter搜索
     $('#k').bind('keypress', function(event) {
         if (event.keyCode == "13")

@@ -58,7 +58,7 @@
       <ul class="fix">
           <%set DataTable categoryList=get_category_child_list(channel,0)%>
           <%foreach(DataRow dr in categoryList.Rows)%>
-        <li class="cyan">
+        <li>
             <a href="<%linkurl("news_show",{dr[id]})%>" tppabs="#">
                 <h2>
                     {dr[title]}
@@ -72,455 +72,53 @@
 
       </ul>
     </div>
-      <script type="text/javascript">
-          var colorArray = new Array("cyan", "purple", "green", "red", "blue");
-          var adocument = document.getElementsByClassName("fix").getElementsByTagName("li").length;
-          for (var i = 0; i < adocument.length; i++) {
-              var s = Math.ceil(Math.random() * 5);
-              alert(s);
-              adocument[i].className = colorArray[s];
-          }
-      </script>
+
     <div class="news_list">
       <ul>
-        <li>
-          <div class="news_time fl">
-            <span class="day">
-              26
-            </span>
-            <span class="year">
-              2016-03
-            </span>
-            <span class="author">
-              戴特数图软件编辑
-            </span>
-            <span class="type">
-              <a href="#" tppabs="#" target="_blank">
-                最新签约
-              </a>
-            </span>
-          </div>
-          <div class="news_cont fr">
-            <h2>
-              <a href="#" tppabs="#" target="_blank">
-                【签约】津市（江西常德市）市委宣传部网站建设
-              </a>
-            </h2>
-            <p class="demo">
-              <a href="#" tppabs="#" target="_blank">
-                津市行政区类别省辖市（地级市代管） 常德市代管，本地和戴特数图软件合作其志愿者服务平台，网站主要功能有： 首页 网站整个风格、架构进行定位，整站重要内容的突出展示。志愿者注册注册时需要选择通过网站管理员后台自定义出来的活动类型和志愿服务岗位。志愿团体注册统计
-                志愿者：XXX位 团队：XXX 个 活动：XXX 个 资讯中心 热点新闻 发布各类新闻信息，后台可自定义类别，使网站保持着活力和影响力...
-              </a>
-            </p>
-            <p class="vis">
-              <a href="#" tppabs="#" target="_blank" class="more btn">
-                查看更多 >>
-              </a>
-              浏览次数：2 &nbsp;&nbsp;
-              <a href="javascript:if(confirm('#  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='#'"
-              tppabs="#">
-                网站建设
-              </a>
-              &nbsp; &nbsp;
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="news_time fl">
-            <span class="day">
-              25
-            </span>
-            <span class="year">
-              2016-03
-            </span>
-            <span class="author">
-              戴特数图软件编辑
-            </span>
-            <span class="type">
-              <a href="#" tppabs="#" target="_blank">
-                网站建设
-              </a>
-            </span>
-          </div>
-          <div class="news_cont fr">
-            <h2>
-              <a href="#" tppabs="#" target="_blank">
-                可定制云商城网站建设解决方案（3）
-              </a>
-            </h2>
-            <p class="demo">
-              <a href="#" tppabs="#" target="_blank">
-                承诺支持时间内，45分钟响应，根据故障分级不同在相应时间内解决问题； 1） 如软件系统无法运行，用户无法使用。我们会在24小时内提供解决方案或替代方法。
-                2）如软件系统操作性能严重降级，用户使用有困难。我们会在48小时内提供解决方案或替代方法。 3）如软件系统性能受损或存在轻微错误，用户使用有轻微影响。我们将在72小时内提供解决方案或替代方法。
-                4）一年内系统正常运行期间内，在双...
-              </a>
-            </p>
-            <p class="vis">
-              <a href="#" tppabs="#" target="_blank" class="more btn">
-                查看更多 >>
-              </a>
-              浏览次数：12 &nbsp;&nbsp;
-              <a href="#" tppabs="#">
-                商城网站建设
-              </a>
-              &nbsp; &nbsp;
-              <a href="javascript:if(confirm('#  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='#'"
-              tppabs="#">
-                网站建设方案
-              </a>
-              &nbsp; &nbsp;
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="news_time fl">
-            <span class="day">
-              25
-            </span>
-            <span class="year">
-              2016-03
-            </span>
-            <span class="author">
-              戴特数图软件编辑
-            </span>
-            <span class="type">
-              <a href="#" tppabs="#" target="_blank">
-                网站建设
-              </a>
-            </span>
-          </div>
-          <div class="news_cont fr">
-            <h2>
-              <a href="#" tppabs="#" target="_blank">
-                深圳TI网站设计拥有什么优势
-              </a>
-            </h2>
-            <p class="demo">
-              <a href="#" tppabs="/news/#" target="_blank">
-                互联网时代很多企业都开始关注网站的使用和价值，因为网站可以将自己的商品和内容进行更好的展示宣传效果，开辟全新的运营模式，最重要的是价格还是非常便宜的，所以不少商家对于网站都是非常看中的。但是在这过程当中，网站设计就成为了非常需要考虑的关键问题，如果一个网站设计的不好，那么就根本无法实现网站的实际价值，在这样的问题上，只能通过选择更好的网站设计来进行弥补。
-                网站设计...
-              </a>
-            </p>
-            <p class="vis">
-              <a href="#" tppabs="/news/#" target="_blank" class="more btn">
-                查看更多 >>
-              </a>
-              浏览次数：16 &nbsp;&nbsp;
-              <a href="javascript:if(confirm('#  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='#'"
-              tppabs="#">
-                TI网站设计
-              </a>
-              &nbsp; &nbsp;
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="news_time fl">
-            <span class="day">
-              24
-            </span>
-            <span class="year">
-              2016-03
-            </span>
-            <span class="author">
-              戴特数图软件编辑
-            </span>
-            <span class="type">
-              <a href="#" tppabs="#" target="_blank">
-                常见问题
-              </a>
-            </span>
-          </div>
-          <div class="news_cont fr">
-            <h2>
-              <a href="#" tppabs="#" target="_blank">
-                旅游网站方案
-              </a>
-            </h2>
-            <p class="demo">
-              <a href="#" tppabs="#" target="_blank">
-                七、导游服务 导游管理 列表显示已有导游，对导游进行添加/编辑/隐藏，分别有基础信息、编号、图片，导游介绍、预订须知，导游排序，导游评分、按市场价、预定价（预定价分一级会员、二级会员、三级会员，销售价填0时默认显示电询）、积分模式（预定送积分、推荐人积分）、库存按总库存设置、设置预约时间（可预定最大多少天范围内），支付方式（全款支付、二次确认支付、线下支付）、价格描述，对该导游进行系...
-              </a>
-            </p>
-            <p class="vis">
-              <a href="#" tppabs="#" target="_blank" class="more btn">
-                查看更多 >>
-              </a>
-              浏览次数：24 &nbsp;&nbsp;
-              <a href="javascript:if(confirm('#  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='#'"
-              tppabs="#">
-                旅游网站
-              </a>
-              &nbsp; &nbsp;
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="news_time fl">
-            <span class="day">
-              23
-            </span>
-            <span class="year">
-              2016-03
-            </span>
-            <span class="author">
-              戴特数图软件编辑
-            </span>
-            <span class="type">
-              <a href="#" tppabs="#" target="_blank">
-                网站建设
-              </a>
-            </span>
-          </div>
-          <div class="news_cont fr">
-            <h2>
-              <a href="#" tppabs="#" target="_blank">
-                响应式网站之解决响应式图片尺寸大小问题
-              </a>
-            </h2>
-            <p class="demo">
-              <a href="#" tppabs="/news/3029.html" target="_blank">
-                前言 随着网站开发技术的发展，浏览器的升级，操作系统的升级，HTML5\CSS3技术的推出，对HTML5的支持变得越来越全面，也让旧浏览器的占有率越来越低，同时不同尺寸的显示终端越来越多，这些让我们看到了响应式网站普及的署光及迫切需求。但，今天要谈的是响应式网站一个必须要解决的问题：图片响应式，一张大图如果PC端是这么大、平板端是这么大、手机端还是这么大的话，实在太不科学了，一是手机流量占...
-              </a>
-            </p>
-            <p class="vis">
-              <a href="#" tppabs="#" target="_blank" class="more btn">
-                查看更多 >>
-              </a>
-              浏览次数：34 &nbsp;&nbsp;
-              <a href="javascript:if(confirm('#  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='#'"
-              tppabs="#">
-                响应式网站
-              </a>
-              &nbsp; &nbsp;
-              <a href="javascript:if(confirm('#  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='#'"
-              tppabs="#">
-                响应式图片
-              </a>
-              &nbsp; &nbsp;
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="news_time fl">
-            <span class="day">
-              22
-            </span>
-            <span class="year">
-              2016-03
-            </span>
-            <span class="author">
-              戴特数图软件编辑
-            </span>
-            <span class="type">
-              <a href="#" tppabs="#" target="_blank">
-                最新签约
-              </a>
-            </span>
-          </div>
-          <div class="news_cont fr">
-            <h2>
-              <a href="#" tppabs="#" target="_blank">
-                【签约】中信资本
-              </a>
-            </h2>
-            <p class="demo">
-              <a href="#" tppabs="/news/3028.html" target="_blank">
-                戴特数图软件和中信股份旗下中信资本合作其官方网站建设，网站主要为公司介绍、新闻资讯、业务介绍为一体的品牌展示网站。 中信资本为中信集团旗下一级子公司平台，专注于另类投资管理,中信资本成立于2002年，总部位于香港，在深圳、上海、北京、东京和纽约等地设有子公司或办事处。
-                业务范围 投资并购事业部专注于：1）投资优秀的非上市公司股权并提供产业战略咨询、资本运作规划等增值服务；2）...
-              </a>
-            </p>
-            <p class="vis">
-              <a href="#" tppabs="#" target="_blank" class="more btn">
-                查看更多 >>
-              </a>
-              浏览次数：41 &nbsp;&nbsp;
-              <a href="#" tppabs="#">
-                戴特数图软件
-              </a>
-              &nbsp; &nbsp;
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="news_time fl">
-            <span class="day">
-              22
-            </span>
-            <span class="year">
-              2016-03
-            </span>
-            <span class="author">
-              戴特数图软件编辑
-            </span>
-            <span class="type">
-              <a href="#" tppabs="#" target="_blank">
-                网站建设
-              </a>
-            </span>
-          </div>
-          <div class="news_cont fr">
-            <h2>
-              <a href="#" tppabs="#" target="_blank">
-                当搜索引擎越来越挑剔网站收录越来越难时我们能做什么
-              </a>
-            </h2>
-            <p class="demo">
-              <a href="#" tppabs="#" target="_blank">
-                近来小编发觉写的很多文章都不收录了，看看后台统计数据就知道，如下截图： 我感到非常纳闷，以为是被惩罚了，不过排名没有多大变化，于是尝试着写更加丰富的内容，发觉还是会收录，于是我就摸索出如下的规则供大家参考：
-                1、图片太多，完全没有文字也不收录； 2、文字多一般能收录，最好在1200字以上，当然不是在网上随便抄够1200字就行了，至少也应该是伪原创（用自己的话重新表达）。
-                3、文章排版要容...
-              </a>
-            </p>
-            <p class="vis">
-              <a href="#" tppabs="#" target="_blank" class="more btn">
-                查看更多 >>
-              </a>
-              浏览次数：46 &nbsp;&nbsp;
-              <a href="javascript:if(confirm('/tag/4179.html  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='#'"
-              tppabs="#">
-                搜索引擎
-              </a>
-              &nbsp; &nbsp;
-              <a href="javascript:if(confirm('# \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='#'"
-              tppabs="#">
-                网站收录
-              </a>
-              &nbsp; &nbsp;
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="news_time fl">
-            <span class="day">
-              21
-            </span>
-            <span class="year">
-              2016-03
-            </span>
-            <span class="author">
-              戴特数图软件编辑
-            </span>
-            <span class="type">
-              <a href="#" tppabs="#" target="_blank">
-                网站建设
-              </a>
-            </span>
-          </div>
-          <div class="news_cont fr">
-            <h2>
-              <a href="javascript:if(confirm('#  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='#'"
-              tppabs="#" target="_blank">
-                企业网站建设外链发布注意事项
-              </a>
-            </h2>
-            <p class="demo">
-              <a href="javascript:if(confirm('#  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='#'"
-              tppabs="#" target="_blank">
-                对于企业网站建设而言，除网站内部链接以外，还有网站的外部链接需要考虑设计。但是，企业网站建设的外链是需要网站建设者有着极大耐心，才可以完成好的工作。一般而言，网站外链如果发布太多，很容易出现判断作弊的问题。如果外链发布过少，又没有办法为网站带来应有推广效果。所以，对于企业网站建设的外链发布有着很多应该注意的事项。只要在发布外链时注意到这些事项，才可能在网站建设时...
-              </a>
-            </p>
-            <p class="vis">
-              <a href="#" tppabs="#" target="_blank" class="more btn">
-                查看更多 >>
-              </a>
-              浏览次数：54 &nbsp;&nbsp;
-              <a href="javascript:if(confirm('#  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='#'"
-              tppabs="#">
-                企业网站建设
-              </a>
-              &nbsp; &nbsp;
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="news_time fl">
-            <span class="day">
-              21
-            </span>
-            <span class="year">
-              2016-03
-            </span>
-            <span class="author">
-              戴特数图软件编辑
-            </span>
-            <span class="type">
-              <a href="#" tppabs="#" target="_blank">
-                网站建设
-              </a>
-            </span>
-          </div>
-          <div class="news_cont fr">
-            <h2>
-              <a href="javascript:if(confirm('#  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='#'"
-              tppabs="#" target="_blank">
-                企业网站建设必须关注的常识及应该确定的目标
-              </a>
-            </h2>
-            <p class="demo">
-              <a href="javascript:if(confirm('#  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='#'"
-              tppabs="/news/3025.html" target="_blank">
-                对于企业网站的建设工作，本身就是一个十分系统而且繁杂的工作。然而，企业想要做好一个网站的建设，就一定做好网站建设的准备工作。只有这样，才可以在进行网站建设时，不会显得手忙脚乱。但是，很多企业并没有太多有关网站建设方面的知识与技术，所以对于网站建设的很多技术可能都不是太过清楚。因此，下面笔者就将企业网站建设必须关注的一些常识简单介绍一下，希望可以帮助到大家。
-                ...
-              </a>
-            </p>
-            <p class="vis">
-              <a href="#" tppabs="#" target="_blank" class="more btn">
-                查看更多 >>
-              </a>
-              浏览次数：52 &nbsp;&nbsp;
-              <a href="javascript:if(confirm('# \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='#'"
-              tppabs="#">
-                企业网站建设
-              </a>
-              &nbsp; &nbsp;
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="news_time fl">
-            <span class="day">
-              20
-            </span>
-            <span class="year">
-              2016-03
-            </span>
-            <span class="author">
-              戴特数图软件编辑
-            </span>
-            <span class="type">
-              <a href="#" tppabs="#" target="_blank">
-                网站建设
-              </a>
-            </span>
-          </div>
-          <div class="news_cont fr">
-            <h2>
-              <a href="javascript:if(confirm('#  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='#'"
-              tppabs="#" target="_blank">
-                戴特数图软件谈网站建设中需注意的要素
-              </a>
-            </h2>
-            <p class="demo">
-              <a href="javascript:if(confirm('/#  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='#'"
-              tppabs="#" target="_blank">
-                现今，网站对于一个企业而言，可谓是对企业发展有着十分重要的影响。但是，随着互联网的发展，现今存在于世的网站，大大小小、各式各样的网站数量之巨，让人咂舌。当然，从另一个角度来看，这也充分显示网站对于市场的重要性。所以，现在企业都纷纷建设自己的企业网站。很遗憾的是，除了本身就是网站建设行业的公司外，其他很多行业都不具备太多网站建设的相关技术，所以对于网站建设的相关技术也不...
-              </a>
-            </p>
-            <p class="vis">
-              <a href="javascript:if(confirm('#  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='#'"
-              tppabs="#" target="_blank" class="more btn">
-                查看更多 >>
-              </a>
-              浏览次数：48 &nbsp;&nbsp;
-              <a href="javascript:if(confirm('#  \n\n���ļ��޷��� Teleport Ultra ����, ��Ϊ ����һ����������ʼ��ַ��Զ�����ӡ������������ʼ��ַ�����������, ���ļ������������ض��С�  \n\n�����ڷ������ϴ���?'))window.location='#'"
-              tppabs="#">
-                网站建设
-              </a>
-              &nbsp; &nbsp;
-            </p>
-          </div>
-        </li>
+          <%set DataTable newslist=get_article_list(channel, 0, 8, "category_id<>60")%>
+          <%foreach(DataRow dr1 in newslist.Rows)%>
+          <li>
+              <div class="news_time fl">
+                  <span class="day">
+                      <%datetostr({dr1[add_time]},dd)%>
+                  </span>
+                  <span class="year">
+                      <%datetostr({dr1[add_time]},yyyy-MM)%>
+                  </span>
+                  <span class="author">
+                      {dr1[author]}
+                  </span>
+                  <span class="type">
+                      <a href="#" tppabs="#" target="_blank">
+                          <%=get_category_title({strtoint({dr1[category_id]})},{dr1[title]})%>
+                      </a>
+                  </span>
+              </div>
+              <div class="news_cont fr">
+                  <h2>
+                      <a href="#" tppabs="#" target="_blank">
+                          {dr1[title]}
+                      </a>
+                  </h2>
+                  <p class="demo">
+                      <a href="#" tppabs="#" target="_blank">
+                          {dr1[zhaiyao]}
+                      </a>
+                  </p>
+                  <p class="vis">
+                      <a href="<%linkurl("news_show",{dr1[id]})%>" tppabs="#" target="_blank" class="more btn">
+                          查看更多 >>
+                      </a>
+                      浏览次数：{dr1[click]} &nbsp;&nbsp;
+                      <a href=""
+                         tppabs="#">
+                          <%=get_category_title({strtoint({dr1[category_id]})},{dr1[title]})%>
+                      </a>
+                      &nbsp; &nbsp;
+                  </p>
+              </div>
+          </li>
+          <%/foreach%>      
       </ul>
     </div>
     <div class="page">

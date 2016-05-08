@@ -9,8 +9,8 @@ override protected void OnInit(EventArgs e)
 {
 
 	/* 
-		This page was created by DataMap Template Engine at 2016/5/6 21:52:29.
-		本页面代码由DataMap模板引擎生成于 2016/5/6 21:52:29. 
+		This page was created by DataMap Template Engine at 2016/5/8 16:17:13.
+		本页面代码由DataMap模板引擎生成于 2016/5/8 16:17:13. 
 	*/
 
 	base.OnInit(e);
@@ -75,8 +75,7 @@ override protected void OnInit(EventArgs e)
 	templateBuilder.Append("\" tppabs=\"/news/\">\r\n                            新闻资讯\r\n                        </a>\r\n                    </li>\r\n                    <li id=\"menu8\">\r\n                        <a href=\"");
 	templateBuilder.Append(linkurl("contact"));
 
-	templateBuilder.Append("\" tppabs=\"/contact/\">\r\n                            联系我们\r\n                        </a>\r\n                    </li>\r\n                </ul>\r\n                <span class=\"nav_icon\">\r\n                </span>\r\n            </nav>\r\n        </div>\r\n    </div>\r\n</header>\r\n<script type=\"text/javascript\">\r\n    document.getElementById(\"menu1\").className = \"on\";\r\n</");
-	templateBuilder.Append("script>");
+	templateBuilder.Append("\" tppabs=\"/contact/\">\r\n                            联系我们\r\n                        </a>\r\n                    </li>\r\n                </ul>\r\n                <span class=\"nav_icon\">\r\n                </span>\r\n            </nav>\r\n        </div>\r\n    </div>\r\n</header>\r\n");
 
 
 	templateBuilder.Append("\r\n      <!--/Header-->\r\n    <script type=\"text/javascript\">\r\n      document.getElementById(\"menu3\").className = \"on\";\r\n    </");

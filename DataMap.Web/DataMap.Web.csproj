@@ -178,6 +178,8 @@
     <Content Include="api\payment\tenpaypc\return_url.aspx" />
     <Content Include="App_Data\DataMapdb4.mdb" />
     <Content Include="aspx\main\cases.aspx" />
+    <Content Include="aspx\main\cases_list.aspx" />
+    <Content Include="aspx\main\cases_show.aspx" />
     <Content Include="aspx\main\index.aspx" />
     <Content Include="aspx\main\mobile.aspx" />
     <Content Include="aspx\main\news.aspx" />
